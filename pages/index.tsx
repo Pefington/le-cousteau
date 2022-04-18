@@ -3,24 +3,24 @@ import Head from "next/head"
 import Header from "../components/Header"
 import Footer from "../components/Footer"
 import template from "../template/template.json"
-import { serverSideTranslations } from "next-i18next/serverSideTranslations"
-import { useTranslation } from "next-i18next"
+// import { serverSideTranslations } from "next-i18next/serverSideTranslations"
+// import { useTranslation } from "next-i18next"
 
-type staticProps = {
-  locale: string
-}
+// type staticProps = {
+//   locale: string
+// }
 
-export async function getStaticProps({ locale }: staticProps) {
-  return {
-    props: {
-      ...(await serverSideTranslations(locale, ["common"])),
-      // Will be passed to the page component as props
-    },
-  }
-}
+// export async function getStaticProps({ locale }: staticProps) {
+//   return {
+//     props: {
+//       ...(await serverSideTranslations(locale, ["common"])),
+//       // Will be passed to the page component as props
+//     },
+//   }
+// }
 
 const Home: NextPage = () => {
-  const t = useTranslation()
+  // const t = useTranslation()
   return (
     <>
       <Head>
