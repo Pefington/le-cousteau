@@ -1,0 +1,65 @@
+{
+	"sections": [
+		{
+			"id": "restaurant",
+			"name": "Le Restaurant"
+		},
+		{
+			"id": "auberge",
+			"name": "L'Auberge",
+			"subsections": [
+				{
+					"id": "chambres",
+					"name": "Les Chambres"
+				},
+				{
+					"id": "gite",
+					"name": "Les Gîtes"
+				}
+			]
+		},
+		{
+			"id": "stages",
+			"name": "Stages Foie Gras"
+		},
+		{
+			"id": "prestations",
+			"name": "Nos Prestations",
+			"subsections": [
+				{
+					"id": "mariages",
+					"name": "Mariages"
+				},
+				{
+					"id": "baptemes",
+					"name": "Baptêmes"
+				},
+				{
+					"id": "cousinades",
+					"name": "Cousinades"
+				},
+				{
+					"id": "anniversaires",
+					"name": "Anniversaires"
+				},
+				{
+					"id": "seminaires",
+					"name": "Séminaires"
+				}
+			]
+		},
+		{
+			"id": "activites",
+			"name": "Activités Locales"
+		},
+		{
+			"id": "tarifs",
+			"name": "Nos Tarifs",
+			"subsections": [
+				{ "id": "tarifsRestau", "name": "Restaurant" },
+				{ "id": "tarifsChambre", "name": "Chambres" },
+				{ "id": "tarifsGîtes", "name": "Gîtes" }
+			]
+		}
+	]
+}
