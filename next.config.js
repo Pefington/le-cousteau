@@ -1,6 +1,13 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-}
 
-module.exports = nextConfig
+module.exports = {
+  nextConfig: {
+    reactStrictMode: true,
+  },
+  i18n: {
+    defaultLocale: "fr",
+    locales: ["en", "fr"],
+    reloadOnPrerender: process.env.NODE_ENV === "development",
+    debug: false,
+  },
+}
