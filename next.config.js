@@ -3,4 +3,6 @@ const nextConfig = {
   reactStrictMode: true,
 }
 
-module.exports = nextConfig
+import { i18n } from "./next-i18next.config"
+
+export { nextConfig, i18n }
