@@ -28,12 +28,13 @@ const Home: NextPage = () => {
         <meta name="description" content="sous-titre ici" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header />
+      {/* <Header /> */}
       <main className="overflow-y-scroll">
         <p>
           Il était une fois, au pays des confits, rillettes, foie gras et
           magrets, un lieu surprenant qui fait le lien entre le passé, son
           savoir-faire séculaire et un présent plein de vie.
+      <button className="btn btn-primary">If I see this, DaisyUI is installed and working, yay!</button>
         </p>
         <p>
           Venez découvrir, au cœur de la campagne gersoise, à 10 minutes d’Auch,
