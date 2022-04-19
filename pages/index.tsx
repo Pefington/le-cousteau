@@ -1,8 +1,8 @@
 import type { NextPage } from "next"
 import Head from "next/head"
-import Header from "../components/Header"
-import Footer from "../components/Footer"
-import template from "../template/template.json"
+// import Header from "../components/Header"
+// import Footer from "../components/Footer"
+// import template from "../template/template.json"
 import { serverSideTranslations } from "next-i18next/serverSideTranslations"
 import { useTranslation } from "next-i18next"
 
@@ -28,8 +28,22 @@ const Home: NextPage = () => {
         <meta name="description" content="sous-titre ici" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <div className="hero min-h-screen bg-lc-main p-8">
+        <div className="hero-overlay bg-opacity-80"></div>
+        <div className="hero-content text-center text-neutral-content">
+          <div className="max-w-md">
+            <h1 className="mb-5 text-5xl font-bold">Auberge Le Cousteau</h1>
+            <p className="mb-5">
+              Il était une fois, au pays des confits, rillettes, foie gras et
+              magrets, un lieu surprenant qui fait le lien entre le passé, son
+              savoir-faire séculaire et un présent plein de vie.
+            </p>
+            <button className="btn btn-primary">Get Started</button>
+          </div>
+        </div>
+      </div>
       {/* <Header /> */}
-      <main className="overflow-y-scroll">
+      {/* <main className="overflow-y-scroll">
         <p>
           Il était une fois, au pays des confits, rillettes, foie gras et
           magrets, un lieu surprenant qui fait le lien entre le passé, son
@@ -84,7 +98,7 @@ const Home: NextPage = () => {
           <section key={id}>{name}</section>
         ))}
       </main>
-      <Footer />
+      <Footer /> */}
     </>
   )
 }
