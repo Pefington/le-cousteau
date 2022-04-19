@@ -13,7 +13,7 @@ module.exports = {
         "lc-main": "url('../public/img/Main.webp')",
       },
       colors: {
-        "lc-red": "#6b081f",
+        "lc-red": "#400818",
       },
     },
     plugins: [],
