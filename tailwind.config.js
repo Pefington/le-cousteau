@@ -16,6 +16,6 @@ module.exports = {
         "lc-red": "#990022",
       },
     },
-    plugins: [],
   },
+  plugins: [require("daisyui")],
 }
