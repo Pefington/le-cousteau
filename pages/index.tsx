@@ -61,7 +61,7 @@ const Home: NextPage = () => {
                       <h2>{section.name}</h2>
                     </li>
                   ) : (
-                    <li tabIndex={0}>
+                    <li key={i} tabIndex={0}>
                       <a className="justify-between">
                         <h2>{section.name}</h2>
                         <svg
@@ -75,8 +75,8 @@ const Home: NextPage = () => {
                         </svg>
                       </a>
                       <ul className="p-2">
-                        {section.subsections.map((subsection, j) => (
-                          <li key={j} className="bg-base-100">
+                        {section.subsections.map((subsection, i) => (
+                          <li key={i} className="bg-base-100">
                             <a>
                               <h3>{subsection.name}</h3>
                             </a>
@@ -94,13 +94,13 @@ const Home: NextPage = () => {
           </div>
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal p-0">
-              {template.sections.map((section, k) =>
+              {template.sections.map((section, i) =>
                 !section.subsections ? (
-                  <li key={k}>
+                  <li key={i}>
                     <h2>{section.name}</h2>
                   </li>
                 ) : (
-                  <li tabIndex={0}>
+                  <li key={i} tabIndex={0}>
                     <a>
                       <h2>{section.name}</h2>
                       <svg
@@ -114,8 +114,8 @@ const Home: NextPage = () => {
                       </svg>
                     </a>
                     <ul className="p-2">
-                      {section.subsections.map((subsection, l) => (
-                        <li key={l} className="bg-base-100">
+                      {section.subsections.map((subsection, i) => (
+                        <li key={i} className="bg-base-100">
                           <a>
                             <h3>{subsection.name}</h3>
                           </a>
