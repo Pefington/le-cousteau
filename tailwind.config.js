@@ -12,14 +12,11 @@ module.exports = {
       backgroundImage: {
         "lc-main": "url('../public/img/Main.webp')",
       },
-      colors: {
-        "lc-red": "#990022",
-      },
     },
   },
   daisyui: {
     styled: true,
-    themes: true,
+    themes: false,
     base: true,
     utils: true,
     logs: false,
@@ -28,23 +25,26 @@ module.exports = {
     themes: [
       {
         mytheme: {
-          primary: "#8C0327",
+          primary: "#803",
+          // "primary-focus": "#3ABFF8",
+          // "primary-content": "#FFF",
 
-          secondary: "#D75050",
+          secondary: "#828DF8",
+          // "secondary-focus": "#828DF8",
+          // "secondary-content": "#828DF8",
 
-          accent: "#D59B6C",
+          accent: "#F471B5",
+          // "accent-focus": "#F471B5",
+          // "accent-content": "#F471B5",
 
-          neutral: "#F2F2F2",
+          neutral: "#FFF",
+          // "neutral-focus": "#1D283A",
+          // "neutral-content": "#803",
 
-          "base-100": "#F2F2F2",
-
-          info: "#42AEBD",
-
-          success: "#489380",
-
-          warning: "#EB8014",
-
-          error: "#E01A2E",
+          "base-100": "#FFF",
+          // "base-200": "#0F1729",
+          // "base-300": "#0F1729",
+          "base-content": "#803",
         },
       },
     ],

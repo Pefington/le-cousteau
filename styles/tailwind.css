@@ -4,15 +4,7 @@
 
 @layer base {
   html {
-    @apply focus:outline-none;
-  }
-
-  body {
-    @apply h-screen w-full overflow-x-hidden bg-white bg-opacity-50 bg-lc-main bg-cover bg-center font-baskerville text-xl text-slate-300;
-  }
-
-  #__next {
-    @apply flex h-screen w-full flex-col items-center bg-stone-900 bg-opacity-75;
+    @apply focus:outline-none font-baskerville;
   }
 
   h1,
