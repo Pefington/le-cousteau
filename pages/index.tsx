@@ -6,6 +6,7 @@ import Image from "next/image"
 import template from "../template/template.json"
 import { serverSideTranslations } from "next-i18next/serverSideTranslations"
 import { useTranslation } from "next-i18next"
+import Link from "next/link"
 
 type staticProps = {
   locale: string
@@ -31,7 +32,7 @@ const Home: NextPage = () => {
       </Head>
 
       <div className="hero min-h-screen bg-lc-main">
-        <nav className="navbar hover:bg-base-100 fixed top-0 transition-all">
+        <nav className="navbar fixed top-0 z-50 text-neutral-content transition-all delay-300 hover:bg-base-100">
           <div className="navbar-start">
             <div className="dropdown">
               <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -75,7 +76,7 @@ const Home: NextPage = () => {
                       </a>
                       <ul className="p-2">
                         {section.subsections.map((subsection, j) => (
-                          <li key={j}>
+                          <li key={j} className="bg-base-100">
                             <a>
                               <h3>{subsection.name}</h3>
                             </a>
@@ -114,7 +115,7 @@ const Home: NextPage = () => {
                     </a>
                     <ul className="p-2">
                       {section.subsections.map((subsection, j) => (
-                        <li key={j}>
+                        <li key={j} className="bg-base-100">
                           <a>
                             <h3>{subsection.name}</h3>
                           </a>
@@ -126,20 +127,11 @@ const Home: NextPage = () => {
               )}
             </ul>
           </div>
-          <div className="navbar-end">
-            <a className="btn">
-              <Image
-                src="/svg/Gites-de-France.svg"
-                alt="Logo Gîtes de France"
-                width="50%"
-                height="50%"
-              />
-            </a>
-          </div>
+          <div className="navbar-end"></div>
         </nav>
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-center text-neutral-content">
-          <div className="max-w-md">
+          <div className="z-40 max-w-md">
             <h1 className="mb-5 text-5xl font-bold">Blablabla</h1>
             <p className="mb-5">
               Il était une fois, au pays des confits, rillettes, foie gras et
@@ -149,6 +141,40 @@ const Home: NextPage = () => {
             {/* <button className="btn btn-primary">Get Started</button> */}
           </div>
         </div>
+        <footer className="footer fixed bottom-0 items-center p-4 text-neutral-content transition-colors delay-300 hover:bg-neutral">
+          <div className="grid-flow-col items-center">
+            <p>Copyright © 2022 - All right reserved</p>
+          </div>
+          <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+            <Link href="https://www.gites-de-france.com" passHref>
+              <a
+                target="_blank"
+                className="h-10 w-10 opacity-60 transition-opacity hover:opacity-100"
+              >
+                <Image
+                  src="/svg/Gites-de-France.svg"
+                  alt="Logo Gîtes de France"
+                  width="100%"
+                  height="100%"
+                />
+              </a>
+            </Link>
+
+            <Link href="https://www.facebook.com/aubergelecousteau" passHref>
+              <a
+                target="_blank"
+                className="h-10 w-10 opacity-60 transition-opacity hover:opacity-100"
+              >
+                <Image
+                  src="/img/facebook_logo.png"
+                  alt="Logo Facebook"
+                  width="100%"
+                  height="100%"
+                />
+              </a>
+            </Link>
+          </div>
+        </footer>
       </div>
 
       {/* <Header /> */}
