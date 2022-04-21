@@ -94,9 +94,9 @@ const Home: NextPage = () => {
           </div>
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal p-0">
-              {template.sections.map((section, i) =>
+              {template.sections.map((section, k) =>
                 !section.subsections ? (
-                  <li key={i}>
+                  <li key={k}>
                     <h2>{section.name}</h2>
                   </li>
                 ) : (
@@ -114,8 +114,8 @@ const Home: NextPage = () => {
                       </svg>
                     </a>
                     <ul className="p-2">
-                      {section.subsections.map((subsection, j) => (
-                        <li key={j} className="bg-base-100">
+                      {section.subsections.map((subsection, l) => (
+                        <li key={l} className="bg-base-100">
                           <a>
                             <h3>{subsection.name}</h3>
                           </a>
