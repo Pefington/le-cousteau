@@ -1,7 +1,7 @@
 import type { NextPage } from "next"
 import Image from "next/image"
 import Head from "next/head"
-// import Header from "../components/Header"
+import Header from "../components/Header"
 // import Footer from "../components/Footer"
 import template from "../public/locales/fr/template.json"
 import { serverSideTranslations } from "next-i18next/serverSideTranslations"
@@ -21,6 +21,8 @@ export async function getStaticProps({ locale }: staticProps) {
   }
 }
 
+console.log(useTranslation)
+
 const Home: NextPage = () => {
   const { t } = useTranslation()
   console.log(t)
@@ -33,148 +35,48 @@ const Home: NextPage = () => {
       </Head>
 
       <div className="hero min-h-screen bg-lc-main">
-        <nav className="navbar fixed top-0 z-50 text-neutral-content transition-all delay-300 hover:bg-base-100">
-          <div className="navbar-start">
-            <div className="dropdown">
-              <label tabIndex={0} className="btn btn-ghost lg:hidden">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M4 6h16M4 12h8m-8 6h16"
-                  />
-                </svg>
-              </label>
-              <ul
-                tabIndex={0}
-                className="dropdown-content menu rounded-box menu-compact mt-3 w-52 bg-base-100 p-2 shadow"
-              >
-                {template.sections.map((section, i) =>
-                  !section.subsections ? (
-                    <li key={i}>
-                      <h2>{t("INTRO.01-IlÉtaitUneFois")}</h2>
-                    </li>
-                  ) : (
-                    <li key={i} tabIndex={0}>
-                      <a className="justify-between">
-                        <h2>{section.name}</h2>
-                        <svg
-                          className="fill-current"
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                        >
-                          <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
-                        </svg>
-                      </a>
-                      <ul className="p-2">
-                        {section.subsections.map((subsection, i) => (
-                          <li key={i} className="bg-base-100">
-                            <a>
-                              <h3>{subsection.name}</h3>
-                            </a>
-                          </li>
-                        ))}
-                      </ul>
-                    </li>
-                  )
-                )}
-              </ul>
-            </div>
-            <a className="btn btn-ghost text-xl normal-case">
-              <h1>Le Cousteau</h1>
-            </a>
-          </div>
-          <div className="navbar-center hidden lg:flex">
-            <ul className="menu menu-horizontal p-0">
-              {template.sections.map((section, i) =>
-                !section.subsections ? (
-                  <li key={i}>
-                    <h2>{section.name}</h2>
-                  </li>
-                ) : (
-                  <li key={i} tabIndex={0}>
-                    <a>
-                      <h2>{section.name}</h2>
-                      <svg
-                        className="fill-current"
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="20"
-                        height="20"
-                        viewBox="0 0 24 24"
-                      >
-                        <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
-                      </svg>
-                    </a>
-                    <ul className="p-2">
-                      {section.subsections.map((subsection, i) => (
-                        <li key={i} className="bg-base-100">
-                          <a>
-                            <h3>{subsection.name}</h3>
-                          </a>
-                        </li>
-                      ))}
-                    </ul>
-                  </li>
-                )
-              )}
-            </ul>
-          </div>
-          <div className="navbar-end"></div>
-        </nav>
+        <Header />
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="z-40 max-w-md">
-            <h1 className="mb-5 text-5xl font-bold">Blablabla</h1>
-            <p className="mb-5">
-              Il était une fois, au pays des confits, rillettes, foie gras et
-              magrets, un lieu surprenant qui fait le lien entre le passé, son
-              savoir-faire séculaire et un présent plein de vie.
-            </p>
+            <h1 className="mb-5 text-5xl font-bold">Le Cousteau</h1>
+            <p className="mb-5">{t("INTRO.01-IlÉtaitUneFois")}</p>
             {/* <button className="btn btn-primary">Get Started</button> */}
           </div>
         </div>
-        <footer className="footer fixed bottom-0 items-center p-4 text-neutral-content transition-colors delay-300 hover:bg-neutral">
-          <div className="grid-flow-col items-center">
-            <p>Copyright © 2022 - All right reserved</p>
-          </div>
-          <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
-            <Link href="https://www.gites-de-france.com" passHref>
-              <a
-                target="_blank"
-                className="h-10 w-10 opacity-60 transition-opacity hover:opacity-100"
-              >
-                <Image
-                  src="/svg/Gites-de-France.svg"
-                  alt="Logo Gîtes de France"
-                  width="100%"
-                  height="100%"
-                />
-              </a>
-            </Link>
+        <footer className="footer fixed bottom-0 items-center p-4 text-neutral-content transition-colors delay-300">
+          <h3>Auberge Le Cousteau – 32360 Saint-Lary</h3>
+          <h4>
+            <a href="tel:+33 5 62 64 53 50">05 62 64 53 50</a> –{" "}
+            <a href="mailto:lecousteau@gmail.com">lecousteau@gmail.com</a>
+          </h4>
+          <Link href="https://www.gites-de-france.com" passHref>
+            <a
+              target="_blank"
+              className="h-10 w-10 opacity-60 transition-opacity"
+            >
+              <Image
+                src="/svg/Gites-de-France.svg"
+                alt="Logo Gîtes de France"
+                width="100%"
+                height="100%"
+              />
+            </a>
+          </Link>
 
-            <Link href="https://www.facebook.com/aubergelecousteau" passHref>
-              <a
-                target="_blank"
-                className="h-10 w-10 opacity-60 transition-opacity hover:opacity-100"
-              >
-                <Image
-                  src="/img/facebook_logo.png"
-                  alt="Logo Facebook"
-                  width="100%"
-                  height="100%"
-                />
-              </a>
-            </Link>
-          </div>
+          <Link href="https://www.facebook.com/aubergelecousteau" passHref>
+            <a
+              target="_blank"
+              className="h-10 w-10 opacity-60 transition-opacity"
+            >
+              <Image
+                src="/img/facebook_logo.png"
+                alt="Logo Facebook"
+                width="100%"
+                height="100%"
+              />
+            </a>
+          </Link>
         </footer>
       </div>
 
