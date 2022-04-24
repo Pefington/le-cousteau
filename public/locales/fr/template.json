@@ -1,65 +1,65 @@
 {
-	"sections": [
-		{
-			"id": "restaurant",
-			"name": "Le Restaurant"
-		},
-		{
-			"id": "auberge",
-			"name": "L'Auberge",
-			"subsections": [
-				{
-					"id": "chambres",
-					"name": "Les Chambres"
-				},
-				{
-					"id": "gite",
-					"name": "Les Gîtes"
-				}
-			]
-		},
-		{
-			"id": "stages",
-			"name": "Stages Foie Gras"
-		},
-		{
-			"id": "prestations",
-			"name": "Nos Prestations",
-			"subsections": [
-				{
-					"id": "mariages",
-					"name": "Mariages"
-				},
-				{
-					"id": "baptemes",
-					"name": "Baptêmes"
-				},
-				{
-					"id": "cousinades",
-					"name": "Cousinades"
-				},
-				{
-					"id": "anniversaires",
-					"name": "Anniversaires"
-				},
-				{
-					"id": "seminaires",
-					"name": "Séminaires"
-				}
-			]
-		},
-		{
-			"id": "activites",
-			"name": "Activités Locales"
-		},
-		{
-			"id": "tarifs",
-			"name": "Nos Tarifs",
-			"subsections": [
-				{ "id": "tarifsRestau", "name": "Restaurant" },
-				{ "id": "tarifsChambre", "name": "Chambres" },
-				{ "id": "tarifsGîtes", "name": "Gîtes" }
-			]
-		}
-	]
+  "sections": [
+    {
+      "id": "1",
+      "name": "Le Restaurant"
+    },
+    {
+      "id": "2",
+      "name": "L'Auberge",
+      "subsections": [
+        {
+          "id": "1",
+          "name": "Les Chambres"
+        },
+        {
+          "id": "2",
+          "name": "Les Gîtes"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Stages Foie Gras"
+    },
+    {
+      "id": "4",
+      "name": "Nos Prestations",
+      "subsections": [
+        {
+          "id": "1",
+          "name": "Mariages"
+        },
+        {
+          "id": "2",
+          "name": "Baptêmes"
+        },
+        {
+          "id": "3",
+          "name": "Cousinades"
+        },
+        {
+          "id": "4",
+          "name": "Anniversaires"
+        },
+        {
+          "id": "5",
+          "name": "Séminaires"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Activités Locales"
+    },
+    {
+      "id": "6",
+      "name": "Nos Tarifs",
+      "subsections": [
+        { "id": "1", "name": "Restaurant" },
+        { "id": "2", "name": "Chambres" },
+        { "id": "3", "name": "Gîtes" }
+      ]
+    }
+  ]
 }

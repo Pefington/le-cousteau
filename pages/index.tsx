@@ -1,6 +1,6 @@
 import type { NextPage } from "next"
-import Head from "next/head"
 import Image from "next/image"
+import Head from "next/head"
 // import Header from "../components/Header"
 // import Footer from "../components/Footer"
 import template from "../public/locales/fr/template.json"
@@ -23,6 +23,7 @@ export async function getStaticProps({ locale }: staticProps) {
 
 const Home: NextPage = () => {
   const { t } = useTranslation()
+  console.log(t)
   return (
     <>
       <Head>
@@ -58,7 +59,7 @@ const Home: NextPage = () => {
                 {template.sections.map((section, i) =>
                   !section.subsections ? (
                     <li key={i}>
-                      <h2>{section.name}</h2>
+                      <h2>{t("INTRO.01-IlÉtaitUneFois")}</h2>
                     </li>
                   ) : (
                     <li key={i} tabIndex={0}>

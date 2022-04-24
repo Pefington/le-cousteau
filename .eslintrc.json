@@ -6,7 +6,7 @@
   },
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
-    "ecmaVersion": 2020,
+    "ecmaVersion": 2021,
     "sourceType": "module",
     "ecmaFeatures": {
       "jsx": true
@@ -17,6 +17,7 @@
     "plugin:@typescript-eslint/recommended",
     "prettier"
   ],
+  "plugins": ["@typescript-eslint", "simple-import-sort", "prettier"],
   "settings": {
     "react": {
       "version": "detect"
@@ -29,5 +30,9 @@
         "project": ["./tsconfig.json"]
       }
     }
-  ]
+  ],
+  "rules": {
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error"
+  }
 }
