@@ -1,13 +1,14 @@
 import { NextComponentType } from "next"
 import { useTranslation } from "next-i18next"
-import { useState } from "react"
+import Link from "next/link"
 import cn from "classnames"
 
 const LangSelector: NextComponentType = () => {
   const { t } = useTranslation()
-  const [EN, setEN] = useState(t("locale") === "en")
+  const locale = t("locale")
+
   return (
-    <div title="Change Theme" className="dropdown dropdown-end">
+    <div title={t("ChangeLanguage")} className="dropdown dropdown-end">
       <div tabIndex={0} className="btn btn-ghost gap-1 normal-case">
         <svg
           className="inline-block h-4 w-4 fill-current md:h-5 md:w-5"
@@ -32,28 +33,38 @@ const LangSelector: NextComponentType = () => {
       <div className="dropdown-content rounded-t-box rounded-b-box top-px mt-16 w-52 overflow-y-auto bg-base-200 text-base-content shadow-2xl">
         <ul className="menu menu-compact gap-1 p-3" tabIndex={0}>
           <li>
-            <button className="active flex">
-              <img
-                loading="lazy"
-                alt="English"
-                src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.0/svg/1f1eb-1f1f7.svg"
-                width="20"
-                height="20"
-              />
-              <span className="flex flex-1 justify-between">Français</span>
-            </button>
+            <Link href="/fr" replace>
+              <button className={cn("flex", { active: locale === "fr" })}>
+                <a>
+                  <img
+                    loading="lazy"
+                    alt="English"
+                    src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.0/svg/1f1eb-1f1f7.svg"
+                    width="20"
+                    height="20"
+                  />
+                </a>
+                <span className="flex flex-1 justify-between">Français</span>
+              </button>
+            </Link>
           </li>
           <li>
-            <button className="flex">
-              <img
-                loading="lazy"
-                alt="English"
-                src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.0/svg/1f1ec-1f1e7.svg"
-                width="20"
-                height="20"
-              />
-              <span className="flex flex-1 justify-between">English</span>
-            </button>
+            <Link href="/en" replace>
+              <button
+                className={cn("flex", { active: locale.toString() === "en" })}
+              >
+                <a>
+                  <img
+                    loading="lazy"
+                    alt="English"
+                    src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.0/svg/1f1ec-1f1e7.svg"
+                    width="20"
+                    height="20"
+                  />
+                </a>
+                <span className="flex flex-1 justify-between">English</span>
+              </button>
+            </Link>
           </li>
         </ul>
       </div>
