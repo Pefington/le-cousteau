@@ -1,10 +1,10 @@
 import { NextComponentType } from "next"
 import template from "../public/locales/fr/template.json"
 import { useTranslation } from "next-i18next"
-
+import LangSelector from "./LangSelector"
 
 const Header: NextComponentType = () => {
-	const { t } = useTranslation()
+  const { t } = useTranslation()
   return (
     <nav className="navbar fixed top-0 z-50 text-neutral-content transition-all delay-300">
       <div className="navbar-start">
@@ -102,11 +102,7 @@ const Header: NextComponentType = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <label className="swap">
-          <input type="checkbox" />
-          <div className="btn swap-on btn-sm">{t("locale")}</div>
-          <div className="btn swap-off btn-sm">{t("otherLocale")}</div>
-        </label>
+        <LangSelector/>
       </div>
     </nav>
   )
