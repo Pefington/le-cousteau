@@ -1,0 +1,109 @@
+{
+  "sections": [
+    {
+      "id": "1",
+
+      "fr": "Le Restaurant",
+      "en": "The Restaurant"
+    },
+    {
+      "id": "2",
+
+      "fr": "L'Auberge",
+      "en": "The Inn",
+
+      "subsections": [
+        {
+          "id": "1",
+
+          "fr": "Les Chambres",
+          "en": "The Rooms"
+        },
+        {
+          "id": "2",
+
+          "fr": "Les Gîtes",
+          "en": "The Lodges"
+        }
+      ]
+    },
+    {
+      "id": "3",
+
+      "fr": "Stages Foie Gras",
+      "en": "Foie Gras Workshops"
+    },
+    {
+      "id": "4",
+
+      "fr": "Nos Prestations",
+      "en": "Services",
+
+      "subsections": [
+        {
+          "id": "1",
+
+          "fr": "Mariages",
+          "en": "Weddings"
+        },
+        {
+          "id": "2",
+
+          "fr": "Baptêmes",
+          "en": "Baptisms"
+        },
+        {
+          "id": "3",
+
+          "fr": "Cousinades",
+          "en": "Family Reunions"
+        },
+        {
+          "id": "4",
+
+          "fr": "Anniversaires",
+          "en": "Anniversaries"
+        },
+        {
+          "id": "5",
+
+          "fr": "Séminaires",
+          "en": "Seminars"
+        }
+      ]
+    },
+    {
+      "id": "5",
+
+      "fr": "Activités Locales",
+      "en": "Local Activities"
+    },
+    {
+      "id": "6",
+
+      "fr": "Nos Tarifs",
+      "en": "Our Rates",
+
+      "subsections": [
+        {
+          "id": "1",
+
+          "fr": "Restaurant",
+          "en": "Restaurant"
+        },
+        {
+          "id": "2",
+
+          "fr": "Chambres",
+          "en": "Rooms"
+        },
+        {
+          "id": "3",
+
+          "fr": "Gîtes",
+          "en": "Lodges"
+        }
+      ]
+    }
+  ]
+}
