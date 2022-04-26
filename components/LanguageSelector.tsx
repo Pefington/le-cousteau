@@ -34,7 +34,6 @@ const LanguageSelector: NextComponentType = () => {
       <div className="dropdown-content rounded-t-box rounded-b-box top-px mt-16 w-52 overflow-y-auto bg-base-200 text-base-content shadow-2xl">
         <ul className="menu menu-compact gap-1 p-3" tabIndex={0}>
           <li>
-            {console.log(locale)}
             <Link href={pathname} locale="fr">
               <button className={cn("flex", { active: locale === "fr" })}>
                 <a>
@@ -51,7 +50,6 @@ const LanguageSelector: NextComponentType = () => {
             </Link>
           </li>
           <li>
-            {console.log(locale)}
             <Link href={pathname} locale="en">
               <button className={cn("flex", { active: locale === "en" })}>
                 <a>
