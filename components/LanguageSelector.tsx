@@ -1,15 +1,15 @@
 import { NextComponentType } from "next"
 import { useTranslation } from "next-i18next"
 import { useRouter } from "next/router"
-import Link from "next/link"
 import cn from "classnames"
+import Link from "next/link"
 
-const LangSelector: NextComponentType = () => {
-  const { locale, pathname } = useRouter();
+const LanguageSelector: NextComponentType = () => {
+  const { locale, pathname } = useRouter()
   const { t } = useTranslation()
 
   return (
-    <div title={t("ChangeLanguage")} className="dropdown dropdown-end">
+    <div title={t("ChangeLanguage")} className="dropdown-end dropdown">
       <div tabIndex={0} className="btn btn-ghost gap-1 normal-case">
         <svg
           className="inline-block h-4 w-4 fill-current md:h-5 md:w-5"
@@ -34,7 +34,8 @@ const LangSelector: NextComponentType = () => {
       <div className="dropdown-content rounded-t-box rounded-b-box top-px mt-16 w-52 overflow-y-auto bg-base-200 text-base-content shadow-2xl">
         <ul className="menu menu-compact gap-1 p-3" tabIndex={0}>
           <li>
-            <Link href={pathname} locale={locale}>
+            {console.log(locale)}
+            <Link href={pathname} locale="fr">
               <button className={cn("flex", { active: locale === "fr" })}>
                 <a>
                   <img
@@ -50,10 +51,9 @@ const LangSelector: NextComponentType = () => {
             </Link>
           </li>
           <li>
-            <Link href={pathname} locale={locale}>
-              <button
-                className={cn("flex", { active: locale === "en" })}
-              >
+            {console.log(locale)}
+            <Link href={pathname} locale="en">
+              <button className={cn("flex", { active: locale === "en" })}>
                 <a>
                   <img
                     loading="lazy"
@@ -73,4 +73,4 @@ const LangSelector: NextComponentType = () => {
   )
 }
 
-export default LangSelector
+export default LanguageSelector

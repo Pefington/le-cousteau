@@ -1,7 +1,7 @@
 import { NextComponentType } from "next"
 import template from "../public/locales/fr/template.json"
 import { useTranslation } from "next-i18next"
-import LangSelector from "./LangSelector"
+import LanguageSelector from "./LanguageSelector"
 
 const Header: NextComponentType = () => {
   const { t } = useTranslation()
@@ -102,7 +102,7 @@ const Header: NextComponentType = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <LangSelector/>
+        <LanguageSelector />
       </div>
     </nav>
   )
