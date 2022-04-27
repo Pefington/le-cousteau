@@ -11,27 +11,27 @@
   "telephone": "+33 5 62 64 53 50",
 
   "INTRO": {
-    "01-IlÉtaitUneFois": "Once upon a time, in the land of confits, rillettes, foie gras, and magrets, a surprising place linking the past, its time honoured expertise, and a lively present.",
-    "02-VenezDécouvrir": "Venez découvrir, au cœur de la campagne gersoise, à 10 minutes d’Auch, un lieu authentique par sa cuisine et par l’accueil chaleureux des propriétaires.",
-    "03-CePetitHameau": "Ce petit hameau de verdure situé dans la commune de Saint-Lary (Gers) où se conjuguent la gastronomie familiale et la convivialité, attire de plus en plus de personnes en quête de repos et de plaisir gastronomique.",
-    "04-L'AubergeSeSitue": "L’auberge se situe dans une ancienne ferme rénovée comprenant plusieurs dépendances, qui au fil du temps ont été restaurées avec gout, charme et confort."
+    "01-IlÉtaitUneFois": "Once upon a time, in the land of confits, rilletes, foie gras, and magrets, there was a surprising place that linked the past, its age-old know-how, and a lively present.",
+    "02-VenezDécouvrir": "Come discover, in the heart oof the Gers countryside, 10 minutes from Auch, an authentic place for its cuisine and the warm welcome of the owners.",
+    "03-CePetitHameau": "This small green hamlet, located in the commune of Saint-Lary (Gers), where family gastronomy is attracting more and more people in search of rest and gastronomic pleasure.",
+    "04-L'AubergeSeSitue": "The Inn is located in a renovated farmhouse with several outbuildings, which over the years have been tastefully restored with charm and comfort."
   },
   "RESTO": {
-    "01-LeRestaurantEstOuvert": "Le restaurant est ouvert 6 jours sur 7, sur réservation, vous y apprécierez une cuisine fine et copieuse, des grillades au feu de bois, où l’alliance entre la convivialité et la qualité des produits vous rapprocheront un peu plus du bonheur.",
-    "02-LÉtéLaTableEstDressée": "L’été la table est dressée sur les terrasse ombragées et l’hiver près de la cheminée."
+    "01-LeRestaurantEstOuvert": "The restaurant is open 6 days a week, upon booking. You will appreciate a fine and copious cuisine, grilled on wood fire, where the alliance between conviviality and quality of our products will bring you a little closer to happiness.",
+    "02-LÉtéLaTableEstDressée": "In the summer, the table is set in the shade, on the terrace, and in the winter, by the fireplace."
   },
   "CHAMBRES-GITES": {
-    "01-LesChambresEtLesGites": "Les chambres et les gîtes permettent à nos hôtes de venir y séjourner à deux, avec des amis ou en famille.",
-    "02-ProfiterDuSoleil": "Vous pourrez profiter du soleil et vous baigner dans une piscine privative, clôturée et éclairée. Des jeux sont à votre disposition."
+    "01-LesChambresEtLesGites": "The rooms and lodges allow our guests to come and stay for two, with friends, or with family.",
+    "02-ProfiterDuSoleil": "You can enjoy the sun and swim in the private, fenced, and lit swimming pool. Games are at your disposal."
   },
   "STAGES": {
-    "01-VenezÉgalementApprendre": "Venez également apprendre les us et coutumes de la transformation du canard et à la découverte du patrimoine historique au cœur de la Gascogne où châteaux, abbayes, producteurs d’armagnacs vous donnent rendez-vous.",
-    "02-YannPédagogue": "Yann, pédagogue, vous guidera avec patience et délicatesse autour de la découpe du canard et l’élaborations des conserves de \"A à Z\".",
-    "03-VousApprendrezÀDécouper": "Vous apprendrez à découper le canard gras en différent quartiers, à déveiner un foie gras et à préparer vos conserves que vous ramènerez avec vous à la fin du stage le tout dans une ambiance conviviale."
+    "01-VenezÉgalementApprendre": "Come and learn the habits and customs of duck processing, and discover the historical heritage in the heart of Gascony, where castles, abbeys, and armagnac producers are waiting for you.",
+    "02-YannPédagogue": "Yann, fine pedagogue, will guide you patiently and delicately throuugh the carving of the duck, and the elaboration of the preserves from «A to Z».",
+    "03-VousApprendrezÀDécouper": "You will learn how to carve the duck into different quarters, how to devein a foie gras, and how to prepare your own preserves, that you'll bring back home at the end of the course, all in a friendly atmosphere."
   },
   "PRESTATIONS": {
-    "01-LeLieuEstÉgalementAdapté": "Le lieu est également adapté pour accueillir divers évènements : cérémonies de mariage, baptêmes, cousinades, anniversaires, séminaires d’entreprises…",
-    "02-Jusque30Couchages": "L’auberge dispose jusqu’à  30 couchages sur place.",
-    "03-ComposerAvecLeChef": "Le service et les repas sont à composer avec le chef."
+    "01-LeLieuEstÉgalementAdapté": "The venue is also suitable for hosting various events: wedding ceremonies, baptisms, family reunions, birthdays, company seminars, etc.",
+    "02-Jusque30Couchages": "The inn has up to 30 rooms on site.",
+    "03-ComposerAvecLeChef": "The service and meals are to be arranged with the chef."
   }
 }

@@ -1,0 +1,37 @@
+{
+  "locale": "en",
+  "ChangeLanguage": "Change language",
+  "?": "?",
+  "!": "!",
+  ";": ";",
+  ":": ":",
+
+  "LeCousteau": "Le Cousteau Inn",
+  "DescriptionContent": "",
+  "telephone": "+33 5 62 64 53 50",
+
+  "INTRO": {
+    "01-IlÉtaitUneFois": "Es war einmal im Land der Confits, Rillettes, Foie Gras und Entenbrust ein überraschender Ort, der eine Verbindung zwischen der Vergangenheit, ihrem jahrhundertealten Know-how und einer lebensfrohen Gegenwart herstellt.",
+    "02-VenezDécouvrir": "Entdecken Sie im Herzen der Landschaft des Gers, 10 Minuten von Auch entfernt, einen Ort, der durch seine Küche und den herzlichen Empfang der Besitzer authentisch ist.",
+    "03-CePetitHameau": "Dieser kleine grüne Weiler in der Gemeinde Saint-Lary (Gers), in dem sich Familiengastronomie und Geselligkeit vereinen, zieht immer mehr Menschen an, die auf der Suche nach Erholung und gastronomischen Genüssen sind.",
+    "04-L'AubergeSeSitue": "Die Herberge befindet sich in einem renovierten alten Bauernhof mit mehreren Nebengebäuden, die im Laufe der Zeit mit Geschmack, Charme und Komfort restauriert wurden."
+  },
+  "RESTO": {
+    "01-LeRestaurantEstOuvert": "Das Restaurant ist an 6 Tagen in der Woche geöffnet (Reservierung erforderlich). Hier genießen Sie eine feine und herzhafte Küche, Grillspezialitäten vom Holzfeuer, bei denen die Verbindung von Gastfreundlichkeit und Produktqualität Sie dem Glück ein Stück näher bringen wird.",
+    "02-LÉtéLaTableEstDressée": "Im Sommer wird der Tisch auf den schattigen Terrassen und im Winter am Kamin gedeckt."
+  },
+  "CHAMBRES-GITES": {
+    "01-LesChambresEtLesGites": "Die Zimmer und Ferienwohnungen ermöglichen es unseren Gästen, zu zweit, mit Freunden oder mit der Familie hier zu übernachten.",
+    "02-ProfiterDuSoleil": "Sie können die Sonne genießen und in einem privaten, eingezäunten und beleuchteten Pool baden. Spiele stehen Ihnen zur Verfügung."
+  },
+  "STAGES": {
+    "01-VenezÉgalementApprendre": "Lernen Sie auch die Sitten und Gebräuche bei der Verarbeitung von Enten kennen und entdecken Sie das historische Erbe im Herzen der Gascogne, wo Schlösser, Abteien und Armagnac-Hersteller auf Sie warten.",
+    "02-YannPédagogue": "Yann, ein Pädagoge, wird Sie mit Geduld und Feingefühl durch die Zerlegung der Ente und die Herstellung der Konserven von \"A bis Z\" führen.",
+    "03-VousApprendrezÀDécouper": "YSie werden lernen, die Ente in verschiedene Viertel zu zerlegen, eine Gänseleber zu entkernen und Konserven zuzubereiten, die Sie am Ende des Kurses mit nach Hause nehmen werden, und das alles in einer geselligen Atmosphäre."
+  },
+  "PRESTATIONS": {
+    "01-LeLieuEstÉgalementAdapté": "Der Ort eignet sich auch für die Ausrichtung verschiedener Veranstaltungen: Hochzeitszeremonien, Taufen, Cousinaden, Geburtstage, Firmenseminare, etc.",
+    "02-Jusque30Couchages": "das Gasthaus verfügt über bis zu 30 Schlafplätze vor Ort",
+    "03-ComposerAvecLeChef": "Der Service und die Mahlzeiten sind mit dem Koch zusammenzustellen."
+  }
+}

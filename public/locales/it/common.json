@@ -1,0 +1,37 @@
+{
+  "locale": "en",
+  "ChangeLanguage": "Change language",
+  "?": "?",
+  "!": "!",
+  ";": ";",
+  ":": ":",
+
+  "LeCousteau": "Le Cousteau Inn",
+  "DescriptionContent": "",
+  "telephone": "+33 5 62 64 53 50",
+
+  "INTRO": {
+    "01-IlÉtaitUneFois": "C'era una volta, nella terra dei confit, delle rillettes, del foie gras e del petto d'anatra, un luogo sorprendente che unisce il passato, il suo know-how millenario e un presente pieno di vita.",
+    "02-VenezDécouvrir": "Venite a scoprire, nel cuore della campagna del Gers, a 10 minuti da Auch, un luogo autentico per la sua cucina e la calda accoglienza dei proprietari.",
+    "03-CePetitHameau": "Questo piccolo borgo verde situato nel comune di Saint-Lary (Gers), dove la gastronomia familiare e la convivialità si uniscono, attira sempre più persone in cerca di riposo e di piacere gastronomico.",
+    "04-L'AubergeSeSitue": "L'ostello si trova in un vecchio casale ristrutturato con diversi annessi, che nel corso degli anni sono stati restaurati con gusto, fascino e comfort."
+  },
+  "RESTO": {
+    "01-LeRestaurantEstOuvert": "Il ristorante è aperto 6 giorni alla settimana, su prenotazione, apprezzerete una cucina fine e copiosa, grigliate al fuoco di legna, dove l'alleanza tra la facilità d'uso e la qualità dei prodotti vi porterà un po' più vicino alla felicità.",
+    "02-LÉtéLaTableEstDressée": "In estate la tavola è apparecchiata sulla terrazza ombreggiata e in inverno vicino al camino.."
+  },
+  "CHAMBRES-GITES": {
+    "01-LesChambresEtLesGites": "Le camere e i gîtes permettono ai nostri ospiti di venire a soggiornare per due, con amici o con la famiglia.",
+    "02-ProfiterDuSoleil": "Potrete godervi il sole e nuotare nella piscina privata, recintata e illuminata. I giochi sono a vostra disposizione."
+  },
+  "STAGES": {
+    "01-VenezÉgalementApprendre": "Venite a conoscere gli usi e costumi della lavorazione dell'anatra e scoprite il patrimonio storico nel cuore della Guascogna dove vi aspettano castelli, abbazie e produttori di armagnac..",
+    "02-YannPédagogue": "Yann, maestro, vi guiderà con pazienza e delicatezza intorno al taglio dell'anatra e l'elaborazione delle conserve dalla A alla Z.",
+    "03-VousApprendrezÀDécouper": "Imparerete come tagliare l'anatra in diversi quarti, come sventrare un foie gras e come preparare le vostre conserve che porterete con voi alla fine del corso, il tutto in un'atmosfera amichevole."
+  },
+  "PRESTATIONS": {
+    "01-LeLieuEstÉgalementAdapté": "Il locale è anche adatto per ospitare vari eventi: cerimonie di matrimonio, battesimi, riunioni di famiglia, compleanni, seminari aziendali, ecc.",
+    "02-Jusque30Couchages": "L'ostello ha fino a 30 letti in loco.",
+    "03-ComposerAvecLeChef": "Il servizio e i pasti devono essere concordati con lo chef."
+  }
+}

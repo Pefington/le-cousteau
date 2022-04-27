@@ -32,13 +32,16 @@ const Home: NextPage = () => {
       <div className="hero min-h-screen bg-lc-main">
         <Header />
         <div className="hero-overlay bg-opacity-60"></div>
-        <div className="hero-content text-center text-neutral-content">
+        <main className="hero-content text-center text-neutral-content">
           <div className="z-40 max-w-md">
             <h1 className="mb-5 text-5xl font-bold">Le Cousteau</h1>
             <p className="mb-5">{t("INTRO.01-IlÉtaitUneFois")}</p>
+            <p className="mb-5">{t("INTRO.02-VenezDécouvrir")}</p>
+            <p className="mb-5">{t("INTRO.03-CePetitHameau")}</p>
+            <p className="mb-5">{t("INTRO.04-L'AubergeSeSitue")}</p>
             {/* <button className="btn btn-primary">Get Started</button> */}
           </div>
-        </div>
+        </main>
         <Footer />
       </div>
     </>

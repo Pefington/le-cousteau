@@ -1,0 +1,37 @@
+{
+  "locale": "en",
+  "ChangeLanguage": "Change language",
+  "?": "?",
+  "!": "!",
+  ";": ";",
+  ":": ":",
+
+  "LeCousteau": "Le Cousteau Inn",
+  "DescriptionContent": "",
+  "telephone": "+33 5 62 64 53 50",
+
+  "INTRO": {
+    "01-IlÉtaitUneFois": "Érase une vez, en el país de los confits, los rilletes, el foie gras y los magrets, un lugar sorprendente que une el pasado, su saber hacer milenario y un presente lleno de vida.",
+    "02-VenezDécouvrir": "Venga a descubrir, en el corazón de la campiña de Gers, a 10 minutos de Auch, un lugar auténtico por su cocina y la cálida acogida de los proprietarios.",
+    "03-CePetitHameau": "Esta pequeña aldea verde situada en la comuna de Saint-Lary (Gers), donde se combinan la gastronomía familiar y la convivencia, atrae cada vez a más personas en busca de descanso y placer gastronómico.",
+    "04-L'AubergeSeSitue": "El albergue se encuentra en une granja renovada con varias dependencias, que a lo largo de los años se han restaurado con gusto y encanto."
+  },
+  "RESTO": {
+    "01-LeRestaurantEstOuvert": "El restaurante está abierto 6 días a la semana, bajo reserva. Apreciará una cocina fina y copiosa, parilla con fuego de leña, donde la alianza entre la facilidad de uso y la calidad de los productos le acercará un poco más ala felicidad.",
+    "02-LÉtéLaTableEstDressée": "En verano la mesa se pone en la terraza, a la sombra, y en invierno, junto a la chiimenea."
+  },
+  "CHAMBRES-GITES": {
+    "01-LesChambresEtLesGites": "Las habitaciones y la casas rurales permiten a nuestros huéspedes alojarse en pareja, con amigos, o en familia.",
+    "02-ProfiterDuSoleil": "Podrá disfrutar del sol y nadar en la piscina privada, vallada e iluminada. Juegos están a su disposición."
+  },
+  "STAGES": {
+    "01-VenezÉgalementApprendre": "Venga a conocer los usos y costumbres de la elaboración del pato, y descubra el patrimonio histórico en el corazón de Gascuña, donde le esperan castillos, abadías y productores de armagnac.",
+    "02-YannPédagogue": "Yann, maestro, le guiará con paciencia y delicadeza en el corte de pato y la elaboración de las conservas de la \"A a la Z\".",
+    "03-VousApprendrezÀDécouper": "Aprenderá a cortar el pato en differentes cuartos, a desvenar un foie gras y a preparar sus proprias conservas que se llevará al final del curso, todo ello en un albiente agradable."
+  },
+  "PRESTATIONS": {
+    "01-LeLieuEstÉgalementAdapté": "El lugar también es adecuado para acoger diversos eventos: ceremonias de boda, bautizos, reuniónes familiares, cumpleaños, seminarios de empresa, etc.",
+    "02-Jusque30Couchages": "El albergue tiene hasta 30 camas en el lugar.",
+    "03-ComposerAvecLeChef": "El servicio y las comidas deben acordarse con el chef."
+  }
+}

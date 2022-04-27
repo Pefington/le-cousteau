@@ -42,6 +42,21 @@ const Header: NextComponentType = () => {
                   <li key={i}>
                     <h2>{section.en}</h2>
                   </li>
+                )) ||
+                (locale === "de" && (
+                  <li key={i}>
+                    <h2>{section.de}</h2>
+                  </li>
+                )) ||
+                (locale === "es" && (
+                  <li key={i}>
+                    <h2>{section.es}</h2>
+                  </li>
+                )) ||
+                (locale === "it" && (
+                  <li key={i}>
+                    <h2>{section.it}</h2>
+                  </li>
                 ))
             )}
           </ul>
@@ -78,6 +93,21 @@ const Header: NextComponentType = () => {
               (locale === "en" && (
                 <li key={i}>
                   <h2>{section.en}</h2>
+                </li>
+              )) ||
+              (locale === "de" && (
+                <li key={i}>
+                  <h2>{section.de}</h2>
+                </li>
+              )) ||
+              (locale === "es" && (
+                <li key={i}>
+                  <h2>{section.es}</h2>
+                </li>
+              )) ||
+              (locale === "it" && (
+                <li key={i}>
+                  <h2>{section.it}</h2>
                 </li>
               ))
           )}

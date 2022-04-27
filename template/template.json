@@ -4,26 +4,42 @@
       "id": "1",
 
       "fr": "Le Restaurant",
-      "en": "The Restaurant"
+
+      "en": "The Restaurant",
+      "de": "Das Restaurant",
+      "es": "El Restaurante",
+      "it": "Il Ristorante"
     },
     {
       "id": "2",
 
       "fr": "L'Auberge",
+
       "en": "The Inn",
+      "de": "Das Gasthaus",
+      "es": "La Posada",
+      "it": "L'Ostello",
 
       "subsections": [
         {
           "id": "1",
 
           "fr": "Les Chambres",
-          "en": "The Rooms"
+
+          "en": "The Rooms",
+          "de": "Die Zimmer",
+          "es": "Las Habitaciones",
+          "it": "Le Camere"
         },
         {
           "id": "2",
 
           "fr": "Les Gîtes",
-          "en": "The Lodges"
+
+          "en": "The Lodges",
+          "de": "Die Unterkünfte",
+          "es": "Las Casas Rurales",
+          "it": "Gli Alloggi"
         }
       ]
     },
@@ -31,44 +47,72 @@
       "id": "3",
 
       "fr": "Stages Foie Gras",
-      "en": "Foie Gras Workshops"
+
+      "en": "Foie Gras Workshops",
+      "de": "Praktika Foie Gras",
+      "es": "Cursos de Foie Gras",
+      "it": "Corsi di Foie Gras"
     },
     {
       "id": "4",
 
       "fr": "Nos Prestations",
+
       "en": "Services",
+      "de": "Unsere Leistungen",
+      "es": "Nuestros Servicios",
+      "it": "I Nostri Servizi",
 
       "subsections": [
         {
           "id": "1",
 
           "fr": "Mariages",
-          "en": "Weddings"
+
+          "en": "Weddings",
+          "de": "Hochzeiten",
+          "es": "Bodas",
+          "it": "Matrimoni"
         },
         {
           "id": "2",
 
           "fr": "Baptêmes",
-          "en": "Baptisms"
+
+          "en": "Baptisms",
+          "de": "Taufen",
+          "es": "Bautizos",
+          "it": "Battesimi"
         },
         {
           "id": "3",
 
           "fr": "Cousinades",
-          "en": "Family Reunions"
+
+          "en": "Family Reunions",
+          "de": "Familienzusammenkünfte",
+          "es": "Reunión Familiar",
+          "it": "Riunione di Famiglia"
         },
         {
           "id": "4",
 
           "fr": "Anniversaires",
-          "en": "Anniversaries"
+
+          "en": "Anniversaries",
+          "de": "Geburtstage",
+          "es": "Anniversaries",
+          "it": "Cumpleaños"
         },
         {
           "id": "5",
 
           "fr": "Séminaires",
-          "en": "Seminars"
+
+          "en": "Seminars",
+          "de": "Seminare",
+          "es": "Seminarios",
+          "it": "Seminari"
         }
       ]
     },
@@ -76,32 +120,52 @@
       "id": "5",
 
       "fr": "Activités Locales",
-      "en": "Local Activities"
+
+      "en": "Local Activities",
+      "de": "lokale Aktivitäten",
+      "es": "Actividades Locales",
+      "it": "Attività Locali"
     },
     {
       "id": "6",
 
       "fr": "Nos Tarifs",
+
       "en": "Our Rates",
+      "de": "Unsere Preisliste",
+      "es": "Nuestras Tarifas",
+      "it": "Le nostre Tariffe",
 
       "subsections": [
         {
           "id": "1",
 
           "fr": "Restaurant",
-          "en": "Restaurant"
+
+          "en": "Restaurant",
+          "de": "Restaurant",
+          "es": "Restaurante",
+          "it": "Ristorante"
         },
         {
           "id": "2",
 
           "fr": "Chambres",
-          "en": "Rooms"
+
+          "en": "Rooms",
+          "de": "Zimmer",
+          "es": "Habitaciones",
+          "it": "Camere"
         },
         {
           "id": "3",
 
           "fr": "Gîtes",
-          "en": "Lodges"
+
+          "en": "Lodges",
+          "de": "Unterkünfte",
+          "es": "Casas Rurales",
+          "it": "Alloggi"
         }
       ]
     }
