@@ -3,8 +3,9 @@
     {
       "id": "1",
 
-      "fr": "Le Restaurant",
+      "url": "restaurant",
 
+      "fr": "Le Restaurant",
       "en": "The Restaurant",
       "de": "Das Restaurant",
       "es": "El Restaurante",
@@ -13,8 +14,9 @@
     {
       "id": "2",
 
-      "fr": "L'Auberge",
+      "url": "auberge",
 
+      "fr": "L'Auberge",
       "en": "The Inn",
       "de": "Das Gasthaus",
       "es": "La Posada",
@@ -25,7 +27,6 @@
           "id": "1",
 
           "fr": "Les Chambres",
-
           "en": "The Rooms",
           "de": "Die Zimmer",
           "es": "Las Habitaciones",
@@ -35,7 +36,6 @@
           "id": "2",
 
           "fr": "Les Gîtes",
-
           "en": "The Lodges",
           "de": "Die Unterkünfte",
           "es": "Las Casas Rurales",
@@ -46,8 +46,9 @@
     {
       "id": "3",
 
-      "fr": "Stages Foie Gras",
+      "url": "stages",
 
+      "fr": "Stages Foie Gras",
       "en": "Foie Gras Workshops",
       "de": "Praktika Foie Gras",
       "es": "Cursos de Foie Gras",
@@ -56,8 +57,9 @@
     {
       "id": "4",
 
-      "fr": "Nos Prestations",
+      "url": "prestations",
 
+      "fr": "Nos Prestations",
       "en": "Services",
       "de": "Unsere Leistungen",
       "es": "Nuestros Servicios",
@@ -68,7 +70,6 @@
           "id": "1",
 
           "fr": "Mariages",
-
           "en": "Weddings",
           "de": "Hochzeiten",
           "es": "Bodas",
@@ -78,7 +79,6 @@
           "id": "2",
 
           "fr": "Baptêmes",
-
           "en": "Baptisms",
           "de": "Taufen",
           "es": "Bautizos",
@@ -88,7 +88,6 @@
           "id": "3",
 
           "fr": "Cousinades",
-
           "en": "Family Reunions",
           "de": "Familienzusammenkünfte",
           "es": "Reunión Familiar",
@@ -98,7 +97,6 @@
           "id": "4",
 
           "fr": "Anniversaires",
-
           "en": "Anniversaries",
           "de": "Geburtstage",
           "es": "Anniversaries",
@@ -108,7 +106,6 @@
           "id": "5",
 
           "fr": "Séminaires",
-
           "en": "Seminars",
           "de": "Seminare",
           "es": "Seminarios",
@@ -119,8 +116,9 @@
     {
       "id": "5",
 
-      "fr": "Activités Locales",
+      "url": "activites",
 
+      "fr": "Activités Locales",
       "en": "Local Activities",
       "de": "lokale Aktivitäten",
       "es": "Actividades Locales",
@@ -129,8 +127,9 @@
     {
       "id": "6",
 
-      "fr": "Nos Tarifs",
+      "url": "tarifs",
 
+      "fr": "Nos Tarifs",
       "en": "Our Rates",
       "de": "Unsere Preisliste",
       "es": "Nuestras Tarifas",
@@ -141,7 +140,6 @@
           "id": "1",
 
           "fr": "Restaurant",
-
           "en": "Restaurant",
           "de": "Restaurant",
           "es": "Restaurante",
@@ -151,7 +149,6 @@
           "id": "2",
 
           "fr": "Chambres",
-
           "en": "Rooms",
           "de": "Zimmer",
           "es": "Habitaciones",
@@ -161,7 +158,6 @@
           "id": "3",
 
           "fr": "Gîtes",
-
           "en": "Lodges",
           "de": "Unterkünfte",
           "es": "Casas Rurales",
