@@ -8,7 +8,7 @@ import { useRouter } from "next/router"
 const Header: NextComponentType = () => {
   const { locale } = useRouter()
   return (
-    <nav className="navbar fixed top-0 z-50 text-neutral-content transition-all delay-300">
+    <nav className="navbar bg-neutral text-neutral-content transition-all delay-300">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -72,7 +72,7 @@ const Header: NextComponentType = () => {
           </ul>
         </div>
         <a className="btn btn-ghost text-xl normal-case">
-          <h1>Le Cousteau</h1>
+          <h1 className="text-2xl">Le Cousteau</h1>
         </a>
         <Link
           href="https://www.gites-de-france.com/fr/occitanie/gers/chambres-au-cousteau-32g100039"
@@ -92,7 +92,7 @@ const Header: NextComponentType = () => {
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal p-0">
+        <ul className="menu menu-horizontal p-0 text-lg">
           {template.sections.map(
             (section, i) =>
               (locale === "fr" && (

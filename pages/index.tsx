@@ -18,33 +18,32 @@ export async function getStaticProps({ locale }: staticProps) {
   }
 }
 
-
 const Home: NextPage = () => {
   const { t } = useTranslation()
+
   return (
-    <>
+    <div className="w-screen h-screen flex flex-col justify-between">
       <Head>
         <title>Auberge Le Cousteau</title>
         <meta name="description" content={t("DescriptionContent")} />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <div className="hero min-h-screen bg-lc-main">
-        <Header />
+      <Header />
+      <div className="hero flex-1 bg-lc-main">
         <div className="hero-overlay bg-opacity-60"></div>
         <main className="hero-content text-center text-neutral-content">
-          <div className="z-40 max-w-md">
-            <h1 className="mb-5 text-5xl font-bold">Le Cousteau</h1>
-            <p className="mb-5">{t("INTRO.01-IlÉtaitUneFois")}</p>
-            <p className="mb-5">{t("INTRO.02-VenezDécouvrir")}</p>
-            <p className="mb-5">{t("INTRO.03-CePetitHameau")}</p>
-            <p className="mb-5">{t("INTRO.04-L'AubergeSeSitue")}</p>
+          <div className="max-w-prose">
+            <h1 className="mb-5 text-5xl font-bold ">Le Cousteau</h1>
+            <p>{t("INTRO.01-IlÉtaitUneFois")}</p>
+            <p>{t("INTRO.02-VenezDécouvrir")}</p>
+            <p>{t("INTRO.03-CePetitHameau")}</p>
+            <p>{t("INTRO.04-L'AubergeSeSitue")}</p>
             {/* <button className="btn btn-primary">Get Started</button> */}
           </div>
         </main>
-        <Footer />
       </div>
-    </>
+      <Footer />
+    </div>
   )
 }
 

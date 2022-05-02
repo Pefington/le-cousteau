@@ -8,7 +8,7 @@ const Footer: NextComponentType = () => {
   const t = useTranslation()
 
   return (
-    <footer className="fixed bottom-0 flex flex-col items-center p-4 text-sm text-neutral-content">
+    <footer className="flex flex-col items-center p-2 text-sm text-neutral-content bg-neutral">
       <h4>Auberge Le Cousteau – 32360 Saint-Lary</h4>
       <div className="flex">
         <Link href="tel:+33 562645350" passHref>

@@ -4,13 +4,17 @@
 
 @layer base {
   html {
-    @apply focus:outline-none font-baskerville;
+    @apply font-baskerville focus:outline-none;
   }
 
   h1,
   h2,
   h3 {
     @apply font-courgette;
+  }
+
+  p{
+    @apply mb-5 text-left text-lg;
   }
 }
 
