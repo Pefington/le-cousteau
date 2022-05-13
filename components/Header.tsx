@@ -10,6 +10,7 @@ const Header: NextComponentType = () => {
   return (
     <nav className="navbar bg-neutral text-neutral-content transition-all delay-300">
       <div className="navbar-start">
+        {/* MOBILE */}
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
             <svg
@@ -91,6 +92,7 @@ const Header: NextComponentType = () => {
           </a>
         </Link>
       </div>
+      {/* LARGE SCREEN */}
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal p-0 text-lg">
           {template.sections.map(
