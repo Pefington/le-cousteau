@@ -18,13 +18,13 @@ export async function getStaticProps({ locale }: staticProps) {
   }
 }
 
-const Auberge: NextPage = () => {
-  const { t } = useTranslation()
+const Prestations: NextPage = () => {
+  const {t} = useTranslation()
 
   return (
     <>
       <Head>
-        <title>L&apos;Auberge</title>
+        <title>Nos Prestations</title>
         <meta name="description" content="" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -39,8 +39,11 @@ const Auberge: NextPage = () => {
               height="768"
               // layout="responsive"
             />
-            <p className="mb-5">{t("CHAMBRES-GITES.01-LesChambresEtLesGites")}</p>
-            <p className="mb-5">{t("CHAMBRES-GITES.02-ProfiterDuSoleil")}</p>
+            <p className="mb-5">
+              {t("PRESTATIONS.01-LeLieuEstÉgalementAdapté")}
+            </p>
+            <p className="mb-5">{t("PRESTATIONS.02-Jusque30Couchages")}</p>
+            <p className="mb-5">{t("PRESTATIONS.03-ComposerAvecLeChef")}</p>
           </div>
         </main>
       </div>
@@ -48,4 +51,4 @@ const Auberge: NextPage = () => {
   )
 }
 
-export default Auberge
+export default Prestations
