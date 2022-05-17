@@ -13,7 +13,7 @@
     @apply font-courgette;
   }
 
-  p{
+  p {
     @apply mb-5 text-left text-lg;
   }
 }

@@ -1,9 +1,10 @@
 import { NextComponentType } from "next"
-import template from "../template/template.json"
-import LanguageSelector from "./LanguageSelector"
 import Image from "next/image"
 import Link from "next/link"
 import { useRouter } from "next/router"
+
+import template from "../template/template.json"
+import LanguageSelector from "./LanguageSelector"
 
 const Header: NextComponentType = () => {
   const { locale } = useRouter()
@@ -35,35 +36,35 @@ const Header: NextComponentType = () => {
             {template.sections.map(
               (section, i) =>
                 (locale === "fr" && (
-                  <Link href={section.url}>
+                  <Link href={section.url} passHref>
                     <li key={i}>
                       <h2>{section.fr}</h2>
                     </li>
                   </Link>
                 )) ||
                 (locale === "en" && (
-                  <Link href={section.url}>
+                  <Link href={section.url} passHref>
                     <li key={i}>
                       <h2>{section.en}</h2>
                     </li>
                   </Link>
                 )) ||
                 (locale === "de" && (
-                  <Link href={section.url}>
+                  <Link href={section.url} passHref>
                     <li key={i}>
                       <h2>{section.de}</h2>
                     </li>
                   </Link>
                 )) ||
                 (locale === "es" && (
-                  <Link href={section.url}>
+                  <Link href={section.url} passHref>
                     <li key={i}>
                       <h2>{section.es}</h2>
                     </li>
                   </Link>
                 )) ||
                 (locale === "it" && (
-                  <Link href={section.url}>
+                  <Link href={section.url} passHref>
                     <li key={i}>
                       <h2>{section.it}</h2>
                     </li>
@@ -98,35 +99,35 @@ const Header: NextComponentType = () => {
           {template.sections.map(
             (section, i) =>
               (locale === "fr" && (
-                <Link href={section.url}>
+                <Link href={section.url} passHref>
                   <li key={i}>
                     <h2>{section.fr}</h2>
                   </li>
                 </Link>
               )) ||
               (locale === "en" && (
-                <Link href={section.url}>
+                <Link href={section.url} passHref>
                   <li key={i}>
                     <h2>{section.en}</h2>
                   </li>
                 </Link>
               )) ||
               (locale === "de" && (
-                <Link href={section.url}>
+                <Link href={section.url} passHref>
                   <li key={i}>
                     <h2>{section.de}</h2>
                   </li>
                 </Link>
               )) ||
               (locale === "es" && (
-                <Link href={section.url}>
+                <Link href={section.url} passHref>
                   <li key={i}>
                     <h2>{section.es}</h2>
                   </li>
                 </Link>
               )) ||
               (locale === "it" && (
-                <Link href={section.url}>
+                <Link href={section.url} passHref>
                   <li key={i}>
                     <h2>{section.it}</h2>
                   </li>

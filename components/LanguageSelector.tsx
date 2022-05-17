@@ -1,8 +1,9 @@
-import { NextComponentType } from "next"
-import { useTranslation } from "next-i18next"
-import { useRouter } from "next/router"
 import cn from "classnames"
+import { NextComponentType } from "next"
+import Image from "next/image"
 import Link from "next/link"
+import { useRouter } from "next/router"
+import { useTranslation } from "next-i18next"
 
 const LanguageSelector: NextComponentType = () => {
   const { locale, pathname } = useRouter()
@@ -34,10 +35,10 @@ const LanguageSelector: NextComponentType = () => {
       <div className="dropdown-content rounded-t-box rounded-b-box top-px mt-16 w-52 overflow-y-auto bg-base-200 text-base-content shadow-2xl">
         <ul className="menu menu-compact gap-1 p-3" tabIndex={0}>
           <li>
-            <Link href={pathname} locale="fr">
+            <Link href={pathname} locale="fr" passHref>
               <button className={cn("flex", { active: locale === "fr" })}>
                 <a>
-                  <img
+                  <Image
                     loading="lazy"
                     alt="English"
                     src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.0/svg/1f1eb-1f1f7.svg"
@@ -50,10 +51,10 @@ const LanguageSelector: NextComponentType = () => {
             </Link>
           </li>
           <li>
-            <Link href={pathname} locale="de">
+            <Link href={pathname} locale="de" passHref>
               <button className={cn("flex", { active: locale === "de" })}>
                 <a>
-                  <img
+                  <Image
                     loading="lazy"
                     alt="English"
                     src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.0/svg/1f1e9-1f1ea.svg"
@@ -66,10 +67,10 @@ const LanguageSelector: NextComponentType = () => {
             </Link>
           </li>
           <li>
-            <Link href={pathname} locale="en">
+            <Link href={pathname} locale="en" passHref>
               <button className={cn("flex", { active: locale === "en" })}>
                 <a>
-                  <img
+                  <Image
                     loading="lazy"
                     alt="English"
                     src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.0/svg/1f1ec-1f1e7.svg"
@@ -82,10 +83,10 @@ const LanguageSelector: NextComponentType = () => {
             </Link>
           </li>
           <li>
-            <Link href={pathname} locale="es">
+            <Link href={pathname} locale="es" passHref>
               <button className={cn("flex", { active: locale === "es" })}>
                 <a>
-                  <img
+                  <Image
                     loading="lazy"
                     alt="English"
                     src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.0/svg/1f1ea-1f1f8.svg"
@@ -98,10 +99,10 @@ const LanguageSelector: NextComponentType = () => {
             </Link>
           </li>
           <li>
-            <Link href={pathname} locale="it">
+            <Link href={pathname} locale="it" passHref>
               <button className={cn("flex", { active: locale === "it" })}>
                 <a>
-                  <img
+                  <Image
                     loading="lazy"
                     alt="English"
                     src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.0/svg/1f1ee-1f1f9.svg"

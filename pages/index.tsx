@@ -23,7 +23,7 @@ const Home: NextPage = () => {
   const { t } = useTranslation()
 
   return (
-    <div className="w-screen h-screen flex flex-col justify-between">
+    <div className="flex h-screen w-screen flex-col justify-between">
       <Head>
         <title>Auberge Le Cousteau</title>
         <meta name="description" content={t("DescriptionContent")} />

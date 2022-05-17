@@ -4,7 +4,6 @@ import Image from "next/image"
 import { useTranslation } from "next-i18next"
 import { serverSideTranslations } from "next-i18next/serverSideTranslations"
 
-9
 type staticProps = {
   locale: string
 }
@@ -39,7 +38,9 @@ const Auberge: NextPage = () => {
               height="768"
               // layout="responsive"
             />
-            <p className="mb-5">{t("CHAMBRES-GITES.01-LesChambresEtLesGites")}</p>
+            <p className="mb-5">
+              {t("CHAMBRES-GITES.01-LesChambresEtLesGites")}
+            </p>
             <p className="mb-5">{t("CHAMBRES-GITES.02-ProfiterDuSoleil")}</p>
           </div>
         </main>
