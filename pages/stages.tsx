@@ -17,7 +17,7 @@ export async function getStaticProps({ locale }: staticProps) {
   }
 }
 
-const Auberge: NextPage = () => {
+const Stages: NextPage = () => {
   const { t } = useTranslation()
 
   return (
@@ -48,4 +48,4 @@ const Auberge: NextPage = () => {
   )
 }
 
-export default Auberge
+export default Stages
