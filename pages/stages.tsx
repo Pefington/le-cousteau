@@ -36,7 +36,6 @@ const Stages: NextPage = () => {
               alt=""
               width="1024"
               height="768"
-              // layout="responsive"
             />
             <p className="mb-5">{t("STAGES.01-VenezÉgalementApprendre")}</p>
             <p className="mb-5">{t("STAGES.02-YannPédagogue")}</p>

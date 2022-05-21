@@ -36,11 +36,8 @@ const Prestations: NextPage = () => {
               alt=""
               width="1024"
               height="768"
-              // layout="responsive"
             />
-            <p className="mb-5">
-              {t("PRESTATIONS.01-LeLieuEstÉgalementAdapté")}
-            </p>
+            <p className="mb-5">{t("PRESTATIONS.01-LeLieuEstÉgalementAdapté")}</p>
             <p className="mb-5">{t("PRESTATIONS.02-Jusque30Couchages")}</p>
             <p className="mb-5">{t("PRESTATIONS.03-ComposerAvecLeChef")}</p>
           </div>

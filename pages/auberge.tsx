@@ -38,9 +38,7 @@ const Auberge: NextPage = () => {
               height="768"
               // layout="responsive"
             />
-            <p className="mb-5">
-              {t("CHAMBRES-GITES.01-LesChambresEtLesGites")}
-            </p>
+            <p className="mb-5">{t("CHAMBRES-GITES.01-LesChambresEtLesGites")}</p>
             <p className="mb-5">{t("CHAMBRES-GITES.02-ProfiterDuSoleil")}</p>
           </div>
         </main>
