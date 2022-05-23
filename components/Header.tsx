@@ -1,13 +1,14 @@
-import { NextComponentType } from "next"
+// import { NextComponentType } from "next"
 
 import GitesDeFrance from "./GitesDeFrance"
 import LanguageSelector from "./LanguageSelector"
 
-type ComponentProps = {
+type Props = {
   browsing: boolean
 }
 
-const Header: NextComponentType = ({ browsing }: ComponentProps) => {
+// const Header: NextComponentType = ({browsing}: Props) => {
+const Header = ({browsing}: Props) => {
   return (
     <nav className="navbar bg-neutral text-neutral-content transition-all delay-300">
       <div className="navbar-start">
