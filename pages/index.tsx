@@ -35,7 +35,7 @@ const Home: NextPage = () => {
         <meta name="description" content={t("DescriptionContent")} />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header browsing={browsing} />
+      {browsing && <Header browsing={browsing} />}
       <div className="hero flex-1 bg-lc-main">
         <div className="hero-overlay bg-opacity-60"></div>
         {browsing === false ? (
@@ -107,7 +107,7 @@ const Home: NextPage = () => {
           </ul>
         )}
       </div>
-      <Footer />
+      {browsing && <Footer />}
     </div>
   )
 }
