@@ -14,7 +14,7 @@
   }
 
   p {
-    @apply mb-5 text-left text-lg;
+    @apply mb-5 text-left text-xl;
   }
 }
 
