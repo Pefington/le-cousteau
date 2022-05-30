@@ -28,7 +28,7 @@ const Auberge: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="hero min-h-screen bg-lc-main">
-        <div className="hero-overlay bg-opacity-60"></div>
+        <div className="hero-overlay bg-opacity-80"></div>
         <main className="hero-content text-center text-neutral-content">
           <div className="z-40 max-w-md">
             <Image
@@ -38,7 +38,9 @@ const Auberge: NextPage = () => {
               height="768"
               // layout="responsive"
             />
-            <p className="mb-5">{t("CHAMBRES-GITES.01-LesChambresEtLesGites")}</p>
+            <p className="mb-5">
+              {t("CHAMBRES-GITES.01-LesChambresEtLesGites")}
+            </p>
             <p className="mb-5">{t("CHAMBRES-GITES.02-ProfiterDuSoleil")}</p>
           </div>
         </main>

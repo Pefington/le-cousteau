@@ -28,7 +28,7 @@ const Prestations: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="hero min-h-screen bg-lc-main">
-        <div className="hero-overlay bg-opacity-60"></div>
+        <div className="hero-overlay bg-opacity-80"></div>
         <main className="hero-content text-center text-neutral-content">
           <div className="z-40 max-w-md">
             <Image
@@ -37,7 +37,9 @@ const Prestations: NextPage = () => {
               width="1024"
               height="768"
             />
-            <p className="mb-5">{t("PRESTATIONS.01-LeLieuEstÉgalementAdapté")}</p>
+            <p className="mb-5">
+              {t("PRESTATIONS.01-LeLieuEstÉgalementAdapté")}
+            </p>
             <p className="mb-5">{t("PRESTATIONS.02-Jusque30Couchages")}</p>
             <p className="mb-5">{t("PRESTATIONS.03-ComposerAvecLeChef")}</p>
           </div>

@@ -37,17 +37,17 @@ const Home: NextPage = () => {
       </Head>
       {browsing && <Header browsing={browsing} />}
       <div className="hero flex-1 bg-lc-main">
-        <div className="hero-overlay bg-opacity-60"></div>
+        <div className="hero-overlay bg-opacity-80"></div>
         {browsing === false ? (
-          <main className="hero-content text-center text-neutral-content">
-            <div className="max-w-prose">
-              <h1 className="mb-5 text-5xl font-bold ">Le Cousteau</h1>
+          <main className="hero-content text-center w-11/12">
+            <div className="font-courgette">
+              <h1 className="mb-8 text-7xl font-bold ">Le Cousteau</h1>
               <p>{t("INTRO.01-IlÉtaitUneFois")}</p>
               <p>{t("INTRO.02-VenezDécouvrir")}</p>
               <p>{t("INTRO.03-CePetitHameau")}</p>
               <p>{t("INTRO.04-L'AubergeSeSitue")}</p>
               <button
-                className="btn btn-primary"
+                className="font-baskerville btn btn-wide btn-ghost hover:btn-primary"
                 onClick={() => setBrowsing(!browsing)}
               >
                 Go
