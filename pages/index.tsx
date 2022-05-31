@@ -4,11 +4,11 @@ import Link from "next/link"
 import { useRouter } from "next/router"
 import { useTranslation } from "next-i18next"
 import { serverSideTranslations } from "next-i18next/serverSideTranslations"
-import { Fragment, useState } from "react"
+import { useState } from "react"
 
-import Carousel from "../components/Carousel"
 import Footer from "../components/Footer"
 import Header from "../components/Header"
+import Intro from "../components/Intro"
 import template from "../template/template.json"
 
 type staticProps = {
@@ -39,10 +39,10 @@ const Home: NextPage = () => {
       {browsing && <Header browsing={browsing} />}
       <div className="flex flex-1 flex-col items-center justify-center bg-stone-900 bg-lc-main bg-blend-overlay">
         {browsing === false ? (
-          <main className="hero-content w-5/6 text-center">
+          <main className="hero-content text-center flex-1 max-w-none w-11/12">
             <div className="font-courgette text-stone-300 overflow-x-scroll">
               <h1 className="mb-8 text-7xl font-bold ">Le Cousteau</h1>
-              <Carousel/>
+              <Intro />
               <button
                 className="btn btn-ghost btn-wide font-baskerville hover:btn-primary"
                 onClick={() => setBrowsing(!browsing)}

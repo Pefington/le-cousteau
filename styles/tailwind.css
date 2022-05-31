@@ -18,6 +18,6 @@
   }
 
   .pintro {
-    @apply my-12 text-left text-3xl;
+    @apply leading-loose my-20 text-center text-3xl;
   }
 }
