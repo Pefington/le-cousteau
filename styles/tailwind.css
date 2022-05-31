@@ -7,17 +7,17 @@
     @apply font-baskerville focus:outline-none;
   }
 
+  #__next {
+    @apply flex flex-col min-h-screen;
+  }
+
   h1,
   h2,
   h3 {
     @apply font-courgette;
   }
 
-  p {
-    @apply mb-5 text-left text-xl;
+  .pintro {
+    @apply my-12 text-left text-3xl;
   }
 }
-
-/* * {
-	border: 1px solid red;
-} */
