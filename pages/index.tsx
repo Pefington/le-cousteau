@@ -4,8 +4,9 @@ import Link from "next/link"
 import { useRouter } from "next/router"
 import { useTranslation } from "next-i18next"
 import { serverSideTranslations } from "next-i18next/serverSideTranslations"
-import { useState } from "react"
+import { Fragment, useState } from "react"
 
+import Carousel from "../components/Carousel"
 import Footer from "../components/Footer"
 import Header from "../components/Header"
 import template from "../template/template.json"
@@ -29,25 +30,21 @@ const Home: NextPage = () => {
   const { locale } = useRouter()
 
   return (
-    <div className="flex h-screen w-screen flex-col justify-between">
+    <>
       <Head>
         <title>Auberge Le Cousteau</title>
         <meta name="description" content={t("DescriptionContent")} />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {browsing && <Header browsing={browsing} />}
-      <div className="hero flex-1 bg-lc-main">
-        <div className="hero-overlay bg-opacity-80"></div>
+      <div className="flex flex-1 flex-col items-center justify-center bg-stone-900 bg-lc-main bg-blend-overlay">
         {browsing === false ? (
-          <main className="hero-content text-center w-11/12">
-            <div className="font-courgette">
+          <main className="hero-content w-5/6 text-center">
+            <div className="font-courgette text-stone-300 overflow-x-scroll">
               <h1 className="mb-8 text-7xl font-bold ">Le Cousteau</h1>
-              <p>{t("INTRO.01-IlÉtaitUneFois")}</p>
-              <p>{t("INTRO.02-VenezDécouvrir")}</p>
-              <p>{t("INTRO.03-CePetitHameau")}</p>
-              <p>{t("INTRO.04-L'AubergeSeSitue")}</p>
+              <Carousel/>
               <button
-                className="font-baskerville btn btn-wide btn-ghost hover:btn-primary"
+                className="btn btn-ghost btn-wide font-baskerville hover:btn-primary"
                 onClick={() => setBrowsing(!browsing)}
               >
                 Go
@@ -108,7 +105,7 @@ const Home: NextPage = () => {
         )}
       </div>
       {browsing && <Footer />}
-    </div>
+    </>
   )
 }
 
