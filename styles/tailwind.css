@@ -7,9 +7,9 @@
     @apply font-baskerville focus:outline-none;
   }
 
-  #__next {
-    @apply flex flex-col min-h-screen;
-  }
+  /* #__next {
+    @apply max-h-full;
+  } */
 
   h1,
   h2,
@@ -17,7 +17,11 @@
     @apply font-courgette;
   }
 
-  .pintro {
-    @apply leading-loose my-20 text-center text-3xl;
+  .mySwiper {
+    @apply h-screen
   }
+
+  /* .pintro {
+    @apply leading-loose my-20 text-center text-3xl;
+  } */
 }
