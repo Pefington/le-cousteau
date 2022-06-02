@@ -53,7 +53,7 @@ const Home: NextPage = () => {
         className="mySwiper"
       >
         <SwiperSlide data-hash="main">
-          <section className="flex h-screen w-screen flex-col items-center justify-center bg-stone-900 bg-opacity-80 bg-lc-main bg-cover text-stone-300 bg-blend-overlay">
+          <section className="flex h-screen w-screen flex-col items-center justify-center bg-stone-900 bg-center bg-opacity-80 bg-lc-main bg-cover text-stone-300 bg-blend-overlay">
             <article className="prose prose-2xl prose-stone font-courgette">
               {/* <p className="pintro">{t("INTRO.01-IlÉtaitUneFois")}</p>
               <p className="pintro">{t("INTRO.02-VenezDécouvrir")}</p> */}
@@ -64,7 +64,7 @@ const Home: NextPage = () => {
           </section>
         </SwiperSlide>
         <SwiperSlide data-hash="mainresto">
-          <section className="flex h-screen w-screen flex-col items-center justify-center bg-stone-900 bg-opacity-80 bg-lc-resto bg-cover text-stone-300 bg-blend-overlay">
+          <section className="flex h-screen w-screen flex-col items-center justify-center bg-stone-900 bg-center bg-opacity-80 bg-lc-resto bg-cover text-stone-300 bg-blend-overlay">
             <article className="prose prose-2xl prose-stone font-courgette">
               <h2 className="mb-8 text-center text-5xl">
                 {t("STRUCTURE.Restaurant")}
@@ -75,7 +75,7 @@ const Home: NextPage = () => {
           </section>
         </SwiperSlide>
         <SwiperSlide data-hash="mainauberge">
-          <section className="flex h-screen w-screen flex-col items-center justify-center bg-stone-900 bg-opacity-80 bg-lc-rooms bg-cover text-stone-300 bg-blend-overlay">
+          <section className="flex h-screen w-screen flex-col items-center justify-center bg-stone-900 bg-center bg-opacity-80 bg-lc-rooms bg-cover text-stone-300 bg-blend-overlay">
             <article className="prose prose-2xl prose-stone font-courgette">
               <h2 className="mb-8 text-center text-5xl">
                 {t("STRUCTURE.Auberge")}
@@ -90,7 +90,7 @@ const Home: NextPage = () => {
           </section>
         </SwiperSlide>
         <SwiperSlide data-hash="mainstages">
-          <section className="flex h-screen w-screen flex-col items-center justify-center bg-stone-900 bg-opacity-80 bg-lc-stages bg-cover text-stone-300 bg-blend-overlay">
+          <section className="flex h-screen w-screen flex-col items-center justify-center bg-stone-900 bg-center bg-opacity-80 bg-lc-stages bg-cover text-stone-300 bg-blend-overlay">
             {/* Photo by <a href="https://unsplash.com/@toddquackenbush?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Todd Quackenbush</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */}
             <article className="prose prose-2xl prose-stone font-courgette">
               <h2 className="mb-8 text-center text-5xl">
@@ -103,7 +103,7 @@ const Home: NextPage = () => {
           </section>
         </SwiperSlide>
         <SwiperSlide data-hash="mainservices">
-          <section className="flex h-screen w-screen flex-col items-center justify-center bg-stone-900 bg-opacity-80 bg-lc-services bg-cover text-stone-300 bg-blend-overlay">
+          <section className="flex h-screen w-screen flex-col items-center justify-center bg-stone-900 bg-center bg-opacity-80 bg-lc-services bg-cover text-stone-300 bg-blend-overlay">
             {/* Photo by <a href="https://unsplash.com/@nilsjakob?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nils Stahl</a> on <a href="https://unsplash.com/s/photos/wedding?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */}
             <article className="prose prose-2xl prose-stone font-courgette">
               <h2 className="mb-8 text-center text-5xl">
@@ -114,6 +114,21 @@ const Home: NextPage = () => {
               </p>
               <p className="pintro">{t("PRESTATIONS.02-Jusque30Couchages")}</p>
               <p className="pintro">{t("PRESTATIONS.03-ComposerAvecLeChef")}</p>
+            </article>
+          </section>
+        </SwiperSlide><SwiperSlide data-hash="mainactivites">
+          <section className="flex h-screen w-screen flex-col items-center justify-center bg-stone-900 bg-center bg-opacity-80 bg-lc-activites bg-cover text-stone-300 bg-blend-overlay">
+            {/* Photo by <a href="https://unsplash.com/@manuelventurini?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Manuel Venturini</a> on <a href="https://unsplash.com/s/photos/wineyard?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+   */}
+            <article className="prose prose-2xl prose-stone font-courgette">
+              <h2 className="mb-8 text-center text-5xl">
+                {t("STRUCTURE.Activites")}
+              </h2>
+              {/* <p className="pintro">
+                {t("PRESTATIONS.01-LeLieuEstÉgalementAdapté")}
+              </p>
+              <p className="pintro">{t("PRESTATIONS.02-Jusque30Couchages")}</p>
+              <p className="pintro">{t("PRESTATIONS.03-ComposerAvecLeChef")}</p> */}
             </article>
           </section>
         </SwiperSlide>
