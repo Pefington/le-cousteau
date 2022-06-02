@@ -10,6 +10,30 @@
   "DescriptionContent": "",
   "telephone": "+33 5 62 64 53 50",
 
+  "STRUCTURE": {
+    "Restaurant": "Il Ristorante",
+
+    "Auberge": "L'Ostello",
+    "AubergeSub1": "Le Camere",
+    "AubergeSub2": "Gli Alloggi",
+
+    "Stages": "Corsi di Foie Gras",
+
+    "Prestations": "I Nostri Servizi",
+    "PrestationsSub1": "Matrimoni",
+    "PrestationsSub2": "Battesimi",
+    "PrestationsSub3": "Riunione di Famiglia",
+    "PrestationsSub4": "Compleanni",
+    "PrestationsSub5": "Seminari",
+
+    "Activites": "Attività Locali",
+
+    "Tarifs": "Le nostre Tariffe",
+    "TarifsSub1": "Ristorante",
+    "TarifsSub2": "Camere",
+    "TarifsSub3": "Alloggi"
+  },
+
   "INTRO": {
     "01-IlÉtaitUneFois": "C'era una volta, nella terra dei confit, delle rillettes, del foie gras e del petto d'anatra, un luogo sorprendente che unisce il passato, il suo know-how millenario e un presente pieno di vita.",
     "02-VenezDécouvrir": "Venite a scoprire, nel cuore della campagna del Gers, a 10 minuti da Auch, un luogo autentico per la sua cucina e la calda accoglienza dei proprietari.",

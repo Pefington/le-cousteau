@@ -11,6 +11,8 @@ module.exports = {
       },
       backgroundImage: {
         "lc-main": "url('../public/img/Main.webp')",
+        "lc-resto": "url('../public/img/Resto.webp')",
+        "lc-rooms": "url('../public/img/Rooms.webp')",
       },
     },
   },
@@ -22,32 +24,7 @@ module.exports = {
     logs: false,
     prefix: "",
     darkTheme: "dark",
-    themes: [
-      {
-        mytheme: {
-          primary: "#803",
-          // "primary-focus": "#3ABFF8",
-          // "primary-content": "#FFF",
-
-          secondary: "#828DF8",
-          // "secondary-focus": "#828DF8",
-          // "secondary-content": "#828DF8",
-
-          accent: "#F471B5",
-          // "accent-focus": "#F471B5",
-          // "accent-content": "#F471B5",
-
-          neutral: "#e7e5e4",
-          // "neutral-focus": "#1D283A",
-          // "neutral-content": "#803",
-
-          "base-100": "#FFF",
-          // "base-200": "#0F1729",
-          // "base-300": "#0F1729",
-          "base-content": "#803",
-        },
-      },
-    ],
+    themes: [],
   },
-  plugins: [require("daisyui")],
+  plugins: [require("daisyui"), require("@tailwindcss/typography")],
 }

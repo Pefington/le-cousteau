@@ -10,6 +10,30 @@
   "DescriptionContent": "",
   "telephone": "+33 5 62 64 53 50",
 
+"STRUCTURE": {
+    "Restaurant": "El Restaurante",
+
+    "Auberge": "La Posada",
+    "AubergeSub1": "Las Habitaciones",
+    "AubergeSub2": "Las Casas Rurales",
+
+    "Stages": "Cursos de Foie Gras",
+
+    "Prestations": "Nuestros Servicios",
+    "PrestationsSub1": "Bodas",
+    "PrestationsSub2": "Bautizos",
+    "PrestationsSub3": "Reunión Familiar",
+    "PrestationsSub4": "Cumpleaños",
+    "PrestationsSub5": "Seminarios",
+
+    "Activites": "Actividades Locales",
+
+    "Tarifs": "Nuestras Tarifas",
+    "TarifsSub1": "Restaurante",
+    "TarifsSub2": "Habitaciones",
+    "TarifsSub3": "Casas Rurales"
+  },
+
   "INTRO": {
     "01-IlÉtaitUneFois": "Érase une vez, en el país de los confits, los rilletes, el foie gras y los magrets, un lugar sorprendente que une el pasado, su saber hacer milenario y un presente lleno de vida.",
     "02-VenezDécouvrir": "Venga a descubrir, en el corazón de la campiña de Gers, a 10 minutos de Auch, un lugar auténtico por su cocina y la cálida acogida de los proprietarios.",

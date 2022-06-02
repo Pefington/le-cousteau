@@ -12,8 +12,8 @@ type Props = {
 // const Header: NextComponentType = ({browsing}: Props) => {
 const Header = ({ browsing }: Props) => {
   return (
-    <nav className="navbar bg-neutral text-neutral-content transition-all delay-300">
-      <div className="navbar-start">
+    <nav className="navbar transition-all delay-300 bg-transparent fixed top-0 z-10">
+      <div className="navbar-start bg-transparent">
         {/* MOBILE */}
         <GitesDeFrance />
         <a className="btn btn-ghost text-xl normal-case">
@@ -26,7 +26,7 @@ const Header = ({ browsing }: Props) => {
           )}
         </a>
       </div>
-      <div className="navbar-end">
+      <div className="navbar-end bg-transparent">
         <LanguageSelector />
       </div>
     </nav>

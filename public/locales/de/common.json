@@ -10,6 +10,30 @@
   "DescriptionContent": "",
   "telephone": "+33 5 62 64 53 50",
 
+  "STRUCTURE": {
+    "Restaurant": "Das Restaurant",
+
+    "Auberge": "Das Gasthaus",
+    "AubergeSub1": "Die Zimmer",
+    "AubergeSub2": "Die Unterkünfte",
+
+    "Stages": "Praktika Foie Gras",
+
+    "Prestations": "Unsere Leistungen",
+    "PrestationsSub1": "Hochzeiten",
+    "PrestationsSub2": "Taufen",
+    "PrestationsSub3": "Familienzusammenkünfte",
+    "PrestationsSub4": "Geburtstage",
+    "PrestationsSub5": "Seminare",
+
+    "Activites": "Lokale Aktivitäten",
+
+    "Tarifs": "Unsere Preisliste",
+    "TarifsSub1": "Restaurant",
+    "TarifsSub2": "Zimmer",
+    "TarifsSub3": "Unterkünfte"
+  },
+
   "INTRO": {
     "01-IlÉtaitUneFois": "Es war einmal im Land der Confits, Rillettes, Foie Gras und Entenbrust ein überraschender Ort, der eine Verbindung zwischen der Vergangenheit, ihrem jahrhundertealten Know-how und einer lebensfrohen Gegenwart herstellt.",
     "02-VenezDécouvrir": "Entdecken Sie im Herzen der Landschaft des Gers, 10 Minuten von Auch entfernt, einen Ort, der durch seine Küche und den herzlichen Empfang der Besitzer authentisch ist.",

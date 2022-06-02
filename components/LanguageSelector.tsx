@@ -10,8 +10,8 @@ const LanguageSelector: NextComponentType = () => {
   const { t } = useTranslation()
 
   return (
-    <div title={t("ChangeLanguage")} className="dropdown dropdown-end">
-      <div tabIndex={0} className="btn btn-ghost gap-1 normal-case">
+    <div title={t("ChangeLanguage")} className="dropdown dropdown-end text-stone-300">
+      <label tabIndex={0} className="btn btn-ghost">
         <svg
           className="inline-block h-4 w-4 fill-current md:h-5 md:w-5"
           xmlns="http://www.w3.org/2000/svg"
@@ -31,8 +31,8 @@ const LanguageSelector: NextComponentType = () => {
         >
           <path d="M1799 349l242 241-1017 1017L7 590l242-241 775 775 775-775z"></path>
         </svg>
-      </div>
-      <div className="dropdown-content rounded-t-box rounded-b-box top-px mt-16 w-52 overflow-y-auto bg-base-200 text-base-content shadow-2xl">
+      </label>
+      <div className="dropdown-content rounded-t-box rounded-b-box top-px mt-16 w-52 overflow-y-auto bg-transparent text-stone-300 shadow-2xl">
         <ul className="menu menu-compact gap-1 p-3" tabIndex={0}>
           <li>
             <Link href={pathname} locale="fr" passHref>
