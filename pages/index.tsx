@@ -42,6 +42,9 @@ const Home: NextPage = () => {
         spaceBetween={30}
         mousewheel={true}
         effect={"fade"}
+        hashNavigation={{
+          watchState: true,
+        }}
         navigation={true}
         pagination={{
           clickable: true,
@@ -49,7 +52,7 @@ const Home: NextPage = () => {
         modules={[EffectFade, Mousewheel, Navigation, Pagination]}
         className="mySwiper"
       >
-        <SwiperSlide>
+        <SwiperSlide data-hash="main">
           <section className="flex h-screen w-screen flex-col items-center justify-center bg-stone-900 bg-opacity-80 bg-lc-main bg-cover text-stone-300 bg-blend-overlay">
             <article className="prose prose-2xl prose-stone font-courgette">
               {/* <p className="pintro">{t("INTRO.01-IlÉtaitUneFois")}</p>
@@ -60,7 +63,7 @@ const Home: NextPage = () => {
             </article>
           </section>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide data-hash="mainresto">
           <section className="flex h-screen w-screen flex-col items-center justify-center bg-stone-900 bg-opacity-80 bg-lc-resto bg-cover text-stone-300 bg-blend-overlay">
             <article className="prose prose-2xl prose-stone font-courgette">
               <h2 className="mb-8 text-center text-5xl">
@@ -71,14 +74,30 @@ const Home: NextPage = () => {
             </article>
           </section>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide data-hash="mainauberge">
           <section className="flex h-screen w-screen flex-col items-center justify-center bg-stone-900 bg-opacity-80 bg-lc-rooms bg-cover text-stone-300 bg-blend-overlay">
             <article className="prose prose-2xl prose-stone font-courgette">
               <h2 className="mb-8 text-center text-5xl">
                 {t("STRUCTURE.Auberge")}
               </h2>
-              <p className="pintro">{t("CHAMBRES-GITES.01-LesChambresEtLesGites")}</p>
-              <p className="pintro">{t("CHAMBRES-GITES.02-ProfiterDuSoleil")}</p>
+              <p className="pintro">
+                {t("CHAMBRES-GITES.01-LesChambresEtLesGites")}
+              </p>
+              <p className="pintro">
+                {t("CHAMBRES-GITES.02-ProfiterDuSoleil")}
+              </p>
+            </article>
+          </section>
+        </SwiperSlide>
+        <SwiperSlide data-hash="mainauberge">
+          <section className="bg-lc-stages flex h-screen w-screen flex-col items-center justify-center bg-stone-900 bg-opacity-80 bg-cover text-stone-300 bg-blend-overlay">
+            <article className="prose prose-2xl prose-stone font-courgette">
+              <h2 className="mb-8 text-center text-5xl">
+                {t("STRUCTURE.Stages")}
+              </h2>
+              <p className="pintro">{t("STAGES.01-VenezÉgalementApprendre")}</p>
+              <p className="pintro">{t("STAGES.02-YannPédagogue")}</p>
+              <p className="pintro">{t("STAGES.03-VousApprendrezÀDécouper")}</p>
             </article>
           </section>
         </SwiperSlide>
