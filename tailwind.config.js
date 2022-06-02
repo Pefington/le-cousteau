@@ -11,6 +11,8 @@ module.exports = {
       },
       backgroundImage: {
         "lc-main": "url('../public/img/Main.webp')",
+        "lc-resto": "url('../public/img/Resto.webp')",
+        "lc-rooms": "url('../public/img/Rooms.webp')",
       },
     },
   },
