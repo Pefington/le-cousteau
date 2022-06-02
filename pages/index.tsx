@@ -77,8 +77,8 @@ const Home: NextPage = () => {
               <h2 className="mb-8 text-center text-5xl">
                 {t("STRUCTURE.Auberge")}
               </h2>
-              <p className="pintro">{t("RESTO.01-LeRestaurantEstOuvert")}</p>
-              <p className="pintro">{t("RESTO.02-LÉtéLaTableEstDressée")}</p>
+              <p className="pintro">{t("CHAMBRES-GITES.01-LesChambresEtLesGites")}</p>
+              <p className="pintro">{t("CHAMBRES-GITES.02-ProfiterDuSoleil")}</p>
             </article>
           </section>
         </SwiperSlide>
