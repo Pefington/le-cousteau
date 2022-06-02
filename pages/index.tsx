@@ -35,6 +35,7 @@ const Home: NextPage = () => {
         <meta name="description" content={t("DescriptionContent")} />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Header browsing={false} />
       <Swiper
         spaceBetween={30}
         effect={"fade"}
@@ -46,8 +47,7 @@ const Home: NextPage = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <section className="flex h-screen w-screen flex-col items-center justify-start bg-stone-900 bg-opacity-80 bg-lc-main bg-cover text-stone-300 bg-blend-overlay">
-        <Header browsing={false} />
+          <section className="flex h-screen w-screen flex-col items-center justify-center bg-stone-900 bg-opacity-80 bg-lc-main bg-cover text-stone-300 bg-blend-overlay">
             <article className="prose prose-2xl prose-stone font-courgette">
               <p className="pintro">{t("INTRO.01-IlÉtaitUneFois")}</p>
               <p className="pintro">{t("INTRO.02-VenezDécouvrir")}</p>
