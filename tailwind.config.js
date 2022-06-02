@@ -14,6 +14,7 @@ module.exports = {
         "lc-resto": "url('../public/img/Resto.webp')",
         "lc-rooms": "url('../public/img/Rooms.webp')",
         "lc-stages": "url('../public/img/Stages.jpg')",
+        "lc-services": "url('../public/img/Services.jpg')",
       },
     },
   },

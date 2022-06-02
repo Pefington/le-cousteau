@@ -89,8 +89,9 @@ const Home: NextPage = () => {
             </article>
           </section>
         </SwiperSlide>
-        <SwiperSlide data-hash="mainauberge">
-          <section className="bg-lc-stages flex h-screen w-screen flex-col items-center justify-center bg-stone-900 bg-opacity-80 bg-cover text-stone-300 bg-blend-overlay">
+        <SwiperSlide data-hash="mainstages">
+          <section className="flex h-screen w-screen flex-col items-center justify-center bg-stone-900 bg-opacity-80 bg-lc-stages bg-cover text-stone-300 bg-blend-overlay">
+            {/* Photo by <a href="https://unsplash.com/@toddquackenbush?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Todd Quackenbush</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */}
             <article className="prose prose-2xl prose-stone font-courgette">
               <h2 className="mb-8 text-center text-5xl">
                 {t("STRUCTURE.Stages")}
@@ -98,6 +99,21 @@ const Home: NextPage = () => {
               <p className="pintro">{t("STAGES.01-VenezÉgalementApprendre")}</p>
               <p className="pintro">{t("STAGES.02-YannPédagogue")}</p>
               <p className="pintro">{t("STAGES.03-VousApprendrezÀDécouper")}</p>
+            </article>
+          </section>
+        </SwiperSlide>
+        <SwiperSlide data-hash="mainservices">
+          <section className="flex h-screen w-screen flex-col items-center justify-center bg-stone-900 bg-opacity-80 bg-lc-services bg-cover text-stone-300 bg-blend-overlay">
+            {/* Photo by <a href="https://unsplash.com/@nilsjakob?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nils Stahl</a> on <a href="https://unsplash.com/s/photos/wedding?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */}
+            <article className="prose prose-2xl prose-stone font-courgette">
+              <h2 className="mb-8 text-center text-5xl">
+                {t("STRUCTURE.Prestations")}
+              </h2>
+              <p className="pintro">
+                {t("PRESTATIONS.01-LeLieuEstÉgalementAdapté")}
+              </p>
+              <p className="pintro">{t("PRESTATIONS.02-Jusque30Couchages")}</p>
+              <p className="pintro">{t("PRESTATIONS.03-ComposerAvecLeChef")}</p>
             </article>
           </section>
         </SwiperSlide>

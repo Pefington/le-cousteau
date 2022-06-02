@@ -22,6 +22,6 @@
   }
 
   .pintro {
-    @apply leading-loose text-2xl font-courgette;
+    @apply leading-loose text-2xl font-baskerville;
   }
 }
