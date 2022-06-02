@@ -10,6 +10,30 @@
   "DescriptionContent": "",
   "telephone": "05 62 64 53 50",
 
+  "STRUCTURE": {
+    "Restaurant": "Le Restaurant",
+
+    "Auberge": "L'Auberge",
+    "AubergeSub1": "Les Chambres",
+    "AubergeSub2": "Les Gîtes",
+
+    "Stages": "Stages Foie Gras",
+
+    "Prestations": "Nos Prestations",
+    "PrestationsSub1": "Nos Prestations",
+    "PrestationsSub2": "Mariages",
+    "PrestationsSub3": "Baptêmes",
+    "PrestationsSub4": "Cousinades",
+    "PrestationsSub5": "Anniversaires",
+
+    "Activites": "Activités Locales",
+
+    "Tarifs": "Nos Tarifs",
+    "TarifsSub1": "Nos Tarifs",
+    "TarifsSub2": "Nos Tarifs",
+    "TarifsSub3": "Nos Tarifs"
+  },
+
   "INTRO": {
     "01-IlÉtaitUneFois": "Il était une fois, au pays des confits, rillettes, foie gras et magrets, un lieu surprenant qui fait le lien entre le passé, son savoir-faire séculaire et un présent plein de vie.",
     "02-VenezDécouvrir": "Venez découvrir, au cœur de la campagne gersoise, à 10 minutes d’Auch, un lieu authentique par sa cuisine et par l’accueil chaleureux des propriétaires.",

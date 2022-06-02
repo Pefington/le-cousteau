@@ -10,6 +10,30 @@
   "DescriptionContent": "",
   "telephone": "+33 5 62 64 53 50",
 
+  "STRUCTURE": {
+    "Restaurant": "The Restaurant",
+
+    "Auberge": "The Inn",
+    "AubergeSub1": "The Rooms",
+    "AubergeSub2": "The Lodges",
+
+    "Stages": "Foie Gras Workshops",
+
+    "Prestations": "Services",
+    "PrestationsSub1": "Weddings",
+    "PrestationsSub2": "Baptisms",
+    "PrestationsSub3": "Family Reunions",
+    "PrestationsSub4": "Anniversaries",
+    "PrestationsSub5": "Seminars",
+
+    "Activites": "Local Activities",
+
+    "Tarifs": "Our Rates",
+    "TarifsSub1": "Restaurant",
+    "TarifsSub2": "Rooms",
+    "TarifsSub3": "Lodges"
+  },
+
   "INTRO": {
     "01-IlÉtaitUneFois": "Once upon a time, in the land of confits, rilletes, foie gras, and magrets, there was a surprising place that linked the past, its age-old know-how, and a lively present.",
     "02-VenezDécouvrir": "Come discover, in the heart of the Gers countryside, 10 minutes from Auch, an authentic place for its cuisine and the warm welcome of the owners.",

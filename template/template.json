@@ -99,8 +99,8 @@
           "fr": "Anniversaires",
           "en": "Anniversaries",
           "de": "Geburtstage",
-          "es": "Anniversaries",
-          "it": "Cumpleaños"
+          "es": "Cumpleaños",
+          "it": "Compleanni"
         },
         {
           "id": "5",
@@ -120,7 +120,7 @@
 
       "fr": "Activités Locales",
       "en": "Local Activities",
-      "de": "lokale Aktivitäten",
+      "de": "Lokale Aktivitäten",
       "es": "Actividades Locales",
       "it": "Attività Locali"
     },
