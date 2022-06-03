@@ -27,7 +27,29 @@ module.exports = {
     logs: false,
     prefix: "",
     darkTheme: "dark",
-    themes: [],
+    themes: [
+      {
+        mytheme: {
+          primary: "#9d174d",
+
+          secondary: "#828DF8",
+
+          accent: "#F471B5",
+
+          neutral: "#f3f4f6",
+
+          "base-100": "#1c1917",
+
+          info: "#0CA6E9",
+
+          success: "#2BD4BD",
+
+          warning: "#F4C152",
+
+          error: "#FB6F84",
+        },
+      },
+    ],
   },
   plugins: [require("daisyui"), require("@tailwindcss/typography")],
 }
